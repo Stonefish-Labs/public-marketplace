@@ -1,0 +1,78 @@
+{
+  "name": "public-marketplace",
+  "owner": {
+    "name": "Stonefish-Labs"
+  },
+  "metadata": {
+    "description": "Public Marketplace for Stonefish Labs plugins",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "mp-fastmcp-core",
+      "source": {
+        "source": "github",
+        "repo": "Stonefish-Labs/fastmcp-dev",
+        "ref": "mp-fastmcp-core"
+      },
+      "keywords": ["fastmcp", "development", "python"],
+      "category": "developer-tools"
+    },
+    {
+      "name": "mp-fastmcp-advanced",
+      "source": {
+        "source": "github",
+        "repo": "Stonefish-Labs/fastmcp-dev",
+        "ref": "mp-fastmcp-advanced"
+      },
+      "keywords": ["fastmcp", "development", "python"],
+      "category": "developer-tools"
+    },
+    {
+      "name": "mp-fastmcp-testing",
+      "source": {
+        "source": "github",
+        "repo": "Stonefish-Labs/fastmcp-dev",
+        "ref": "mp-fastmcp-testing"
+      },
+      "keywords": ["fastmcp", "development", "python"],
+      "category": "developer-tools"
+    },
+    {
+      "name": "project-management",
+      "source": {
+        "source": "github",
+        "repo": "Stonefish-Labs/project-management"
+      },
+      "keywords": ["project-management", "skill", "python"],
+      "category": "productivity"
+    },
+    {
+      "name": "mp-dev",
+      "source": {
+        "source": "github",
+        "repo": "Stonefish-Labs/mp-dev"
+      },
+      "description": "Plugin development tools: scaffold skills, agents, hooks, MCP servers, commands, and plugins; validate and refine components; publish to GitHub.",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": ["skill", "subagent", "development", "scaffolding", "plugin"],
+      "category": "developer-tools"
+    },
+    {
+      "name": "mp-admin",
+      "source": {
+        "source": "github",
+        "repo": "Stonefish-Labs/mp-admin"
+      },
+      "description": "Marketplace management skills: init, add, remove, sync, publish, and version bump for Claude Code plugin marketplaces.",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": ["skill", "marketplace", "admin", "catalog"],
+      "category": "developer-tools"
+    }
+  ]
+}

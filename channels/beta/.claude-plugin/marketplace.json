@@ -1,0 +1,12 @@
+{
+  "name": "public-marketplace-beta",
+  "owner": {
+    "name": "Stonefish-Labs"
+  },
+  "metadata": {
+    "description": "Beta channel for public-marketplace",
+    "version": "1.0.0",
+    "pluginRoot": "../../plugins"
+  },
+  "plugins": []
+}
