@@ -1,17 +1,17 @@
-# public-marketplace
+# the-reef
 
 Public Marketplace for Stonefish Labs plugins.
 
 ## Add This Marketplace
 
 ```shell
-/plugin marketplace add Stonefish-Labs/public-marketplace
+/plugin marketplace add Stonefish-Labs/the-reef
 ```
 
 ## Install Plugins
 
 ```shell
-/plugin install <plugin-name>@public-marketplace
+/plugin install <plugin-name>@the-reef
 ```
 
 ## Available Plugins
@@ -78,5 +78,5 @@ Public Marketplace for Stonefish Labs plugins.
 ## Beta Channel
 
 ```shell
-/plugin marketplace add Stonefish-Labs/public-marketplace --ref channels/beta
+/plugin marketplace add Stonefish-Labs/the-reef --ref channels/beta
 ```
