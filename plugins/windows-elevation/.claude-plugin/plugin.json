@@ -1,5 +1,5 @@
 {
-  "name": "windows-elevation",
+  "name": "sys-win-elevation",
   "version": "1.0.0",
   "description": "Run elevated Windows commands while preserving visible stdout/stderr using inline sudo or gsudo.",
   "author": {
@@ -13,7 +13,7 @@
     "automation"
   ],
   "skills": [
-    "SKILL.md"
+    "skills/windows-elevation/SKILL.md"
   ],
   "agents": []
 }

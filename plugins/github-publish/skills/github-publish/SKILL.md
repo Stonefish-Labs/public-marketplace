@@ -128,7 +128,7 @@ Cargo.lock
 **/*.rs.bk
 ```
 
-See `../../references/gitignore-templates.md` for complete templates.
+See `references/gitignore-templates.md` for complete templates.
 
 ### 2. Ensure README
 
@@ -277,5 +277,5 @@ This is because:
 
 ## See Also
 
-- `../../references/gitignore-templates.md` — Complete .gitignore templates by language
-- `../../references/topics-reference.md` — Common GitHub topics for discoverability
+- `references/gitignore-templates.md` — Complete .gitignore templates by language
+- `references/topics-reference.md` — Common GitHub topics for discoverability

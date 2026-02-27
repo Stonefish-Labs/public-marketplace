@@ -1,5 +1,5 @@
 {
-  "name": "system-summary",
+  "name": "sys-macos-system-summary",
   "version": "1.0.0",
   "description": "Baseline machine identity and hardware diagnostics for macOS, Linux, and Windows.",
   "author": {

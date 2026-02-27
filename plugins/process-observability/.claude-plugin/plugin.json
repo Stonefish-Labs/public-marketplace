@@ -1,5 +1,5 @@
 {
-  "name": "process-observability",
+  "name": "sys-macos-process-observability",
   "version": "1.0.0",
   "description": "Runtime process diagnostics with privacy-minimized defaults and optional path-level forensics.",
   "author": {

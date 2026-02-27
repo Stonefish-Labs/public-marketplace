@@ -1,5 +1,5 @@
 {
-  "name": "dev-snippets-linux-bash",
+  "name": "sys-linux-dev-snippets-linux-bash",
   "version": "1.0.0",
   "description": "Linux and Bash snippet workflows for resilient downloads and ELF dependency packaging with verification and rollback guidance.",
   "author": {

@@ -1,5 +1,5 @@
 {
-  "name": "network-ports-diagnostics",
+  "name": "sys-macos-network-ports-diagnostics",
   "version": "1.0.0",
   "description": "Local-only network and listening-port diagnostics without public-IP egress.",
   "author": {

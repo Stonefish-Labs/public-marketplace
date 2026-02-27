@@ -1,5 +1,5 @@
 {
-  "name": "research-intelligence-plugin",
+  "name": "prosvc-research-intelligence",
   "version": "1.0.0",
   "description": "Research-to-decision workflow plugin combining deep research, strict technical editing, and executive summary synthesis with structured subagent contracts.",
   "author": {

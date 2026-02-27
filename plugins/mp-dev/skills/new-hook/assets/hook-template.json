@@ -1,0 +1,39 @@
+{
+  "description": "{{DESCRIPTION}}",
+  "//": "Valid Hook Events: PreToolUse, PostToolUse, PermissionRequest, ChatStart, ChatEnd, WorktreeCreate, WorktreeRemove, TeammateIdle, TaskCompleted, ConfigChange, SubagentStart, SubagentStop, PreCompact",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/{{SCRIPT_NAME}}.sh",
+            "async": true
+          },
+          {
+            "type": "prompt",
+            "prompt": "Evaluate the result of the Write or Edit tool use."
+          },
+          {
+            "type": "agent",
+            "agent": "ReviewerAgent",
+            "task": "Review the modifications."
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/pre_tool_{{SCRIPT_NAME}}.sh",
+            "//": "Scripts for PreToolUse and PermissionRequest should return JSON with 'hookSpecificOutput' (e.g., {'hookSpecificOutput': {'permissionDecision': 'grant', 'updatedInput': '...'}})"
+          }
+        ]
+      }
+    ]
+  }
+}

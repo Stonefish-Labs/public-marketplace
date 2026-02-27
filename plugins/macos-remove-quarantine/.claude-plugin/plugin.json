@@ -1,9 +1,9 @@
 {
-  "name": "macos-remove-quarantine",
+  "name": "sys-macos-remove-quarantine",
   "version": "1.0.0",
   "description": "Bundled plugin: macos-remove-quarantine",
   "skills": [
-    "SKILL.md"
+    "skills/macos-remove-quarantine/SKILL.md"
   ],
   "agents": []
 }

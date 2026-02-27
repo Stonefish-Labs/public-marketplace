@@ -1,0 +1,19 @@
+{
+  "name": "sys-macos-demacify",
+  "version": "1.0.0",
+  "description": "Strip macOS metadata files from directories before archiving, sharing, or transferring to non-Mac systems.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "macos",
+    "cleanup",
+    "archive",
+    "metadata",
+    "file-management"
+  ],
+  "skills": [
+    "skills/demacify/SKILL.md"
+  ],
+  "agents": []
+}

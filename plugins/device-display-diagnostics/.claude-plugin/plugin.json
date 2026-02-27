@@ -1,5 +1,5 @@
 {
-  "name": "device-display-diagnostics",
+  "name": "sys-macos-device-display-diagnostics",
   "version": "1.0.0",
   "description": "Peripheral and monitor diagnostics covering USB, Bluetooth, and display state.",
   "author": {

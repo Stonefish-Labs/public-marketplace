@@ -1,9 +1,9 @@
 {
-  "name": "macos-wine-setup",
+  "name": "sys-macos-wine-setup",
   "version": "1.0.0",
   "description": "Bundled plugin: macos-wine-setup",
   "skills": [
-    "SKILL.md"
+    "skills/macos-wine-setup/SKILL.md"
   ],
   "agents": []
 }

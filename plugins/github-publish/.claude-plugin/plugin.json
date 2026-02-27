@@ -1,5 +1,5 @@
 {
-  "name": "github-publish",
+  "name": "dev-github-publish",
   "version": "1.0.0",
   "description": "Publish projects to GitHub cleanly with repository setup, .gitignore strategy, README baselines, topics, and push workflows.",
   "author": {

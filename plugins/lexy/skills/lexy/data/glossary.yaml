@@ -1,0 +1,283 @@
+Allofeuriesm:
+  definitions:
+    - text: "A term used to describe the feeling of being overwhelmed by the amount of work to do."
+      see_also: []
+
+Aura:
+  definitions:
+    - text: "A mysterious and powerful energy that surrounds a person or object."
+      see_also:
+        - "energy"
+        - "presence"
+    - text: "A gen alpha term a person's perceived 'cool' factor, star power, or stylish swagger"
+      see_also:
+        - "aura"
+        - "swagger"
+        - "cool factor"
+
+Bae:
+  definitions:
+    - text: "A significant other, a partner, or a significant other."
+      see_also:
+        - "significant other"
+        - "partner"
+        - "relationship"
+    - text: "A person you are in a relationship with."
+      see_also: []
+
+"Big Mood":
+  definitions:
+    - text: "An intense or relatable feeling, experience, or thing. It's a mood but it's a huge relatable mood."
+      see_also:
+        - "mood"
+        - "emotion"
+        - "feeling"
+
+"Bluebird Initiative":
+  definitions:
+    - text: "Internal project focused on enhancing customer communication channels."
+      see_also:
+        - "Bluebird"
+        - "Project Bluebird"
+    - text: "A deprecated marketing campaign from Q2 2021."
+      see_also: []
+
+Bussin:
+  definitions:
+    - text: "Very good or tasty (food)."
+      see_also:
+        - "delicious"
+        - "amazing"
+        - "fire food"
+
+Cap:
+  definitions:
+    - text: "Not true; a lie."
+      see_also:
+        - "no cap"
+        - "capping"
+        - "lying"
+
+Chat:
+  definitions:
+    - text: "In the context of slang, \"chat\" is often used by Gen Z to refer to a group of people, similar to \"guys\" or \"folks\". It's borrowed from online livestreaming where streamers address their audience as \"chat\". This slang is particularly common in informal conversations, often used in phrases like \"Chat, did you hear what she said?\""
+      see_also:
+        - "chatting"
+        - "chatting online"
+        - "chatting on the internet"
+        - "guys"
+        - "folks"
+    - text: "A group of people, similar to \"guys\" or \"folks\"."
+      see_also: []
+
+"Code Wombat":
+  definitions:
+    - text: "A developer who tirelessly refactors legacy code, often in isolation."
+      see_also:
+        - "Wombat"
+        - "Code Warrior"
+    - text: "An affectionate term for a junior dev tackling a particularly hairy bug."
+      see_also: []
+
+Delulu:
+  definitions:
+    - text: "Delusional."
+      see_also:
+        - "delusional"
+        - "living in delusion"
+
+"Digital Biscuit":
+  definitions:
+    - text: "A small, satisfying piece of information or a quick win in a digital project."
+      see_also:
+        - "Digital Cookie"
+        - "Info Biscuit"
+    - text: "A cookie, but for the internet. Not the edible kind, usually."
+      see_also: []
+
+Finna:
+  definitions:
+    - text: "A colloquial contraction of 'fixing to' or 'going to', indicating an intention to do something in the near future."
+      see_also:
+        - "fixing to"
+        - "about to"
+    - text: "What you say before you actually start doing the thing."
+      see_also: []
+
+Fire:
+  definitions:
+    - text: "Really good or amazing."
+      see_also:
+        - "lit"
+        - "flames"
+        - "heat"
+
+GOAT:
+  definitions:
+    - text: "Greatest Of All Time."
+      see_also:
+        - "Greatest Of All Time"
+        - "the goat"
+
+"Gen Alpha":
+  definitions:
+    - text: "A person born in the early 2000s and later, characterized by their digital native status and use of technology but their inability to understand any of it."
+      see_also:
+        - "Gen Z"
+        - "Gen X"
+        - "Gen Y"
+    - text: "A person who is a member of the generation that came of age during the 2000s and 2010s."
+      see_also: []
+
+"Gen Z":
+  definitions:
+    - text: "A person born in the mid 1990s and later, characterized by their digital native status and use of technology but their inability to understand any of it."
+      see_also:
+        - "Gen Alpha"
+        - "Gen X"
+        - "Gen Y"
+
+Goofy:
+  definitions:
+    - text: "Silly or funny in a dumb way."
+      see_also:
+        - "silly"
+        - "ridiculous"
+        - "absurd"
+
+Gyat:
+  definitions:
+    - text: "Curvy booty/hips."
+      see_also:
+        - "gyatt"
+        - "goddamn"
+
+"Kronos Project":
+  definitions:
+    - text: "A top-secret initiative to optimize temporal data streams."
+      see_also:
+        - "Kronos"
+        - "Project Kronos"
+    - text: "Codename for the next-generation enterprise resource planning system integration."
+      see_also: []
+
+MCP:
+  definitions:
+    - text: "Model Context Protocol. A JSON-RPC based protocol to enable LLMs to call tools, retrieve resources, and interact with the world. For more information, refer to: https://modelcontextprotocol.io/llms-full.txt"
+      see_also:
+        - "Model Context Protocol"
+        - "model context protocol"
+
+Mid:
+  definitions:
+    - text: "Average or not that good."
+      see_also:
+        - "mediocre"
+        - "meh"
+        - "average"
+
+Millennial:
+  definitions:
+    - text: "A person born in the early 1980s and later, characterized by their digital native status but with enough experience from the old world to appreciate the present era of not having to get off the internet to use their phone."
+      see_also:
+        - "Gen Alpha"
+        - "Gen Z"
+        - "Gen Y"
+
+Mood:
+  definitions:
+    - text: "When something is generally moody or has a strong emotion to it."
+      see_also:
+        - "big mood"
+
+Pookie:
+  definitions:
+    - text: "Someone you love/care for."
+      see_also:
+        - "babe"
+        - "honey"
+        - "sweetheart"
+
+"Quantum Entanglement Debugger (QED)":
+  definitions:
+    - text: "A purely theoretical tool for solving bugs that seem to affect unrelated parts of the system simultaneously. Does not actually exist."
+      see_also:
+        - "QED"
+        - "Quantum Debugger"
+        - "Entanglement Debugger"
+    - text: "What you wish you had when you fix a bug in one place and another one pops up somewhere else."
+      see_also: []
+
+Rizz:
+  definitions:
+    - text: "Romantic Charm."
+      see_also:
+        - "charisma"
+        - "charm"
+        - "game"
+
+Sigma:
+  definitions:
+    - text: "Good."
+      see_also:
+        - "sigma male"
+        - "based"
+
+Skibidi:
+  definitions:
+    - text: "Bad."
+      see_also:
+        - "skibidi toilet"
+        - "cringe"
+
+Skunkworks:
+  definitions:
+    - text: "An experimental R&D project, typically operating with a high degree of autonomy and secrecy."
+      see_also:
+        - "Skunk Works"
+        - "Skunk-works"
+        - "Advanced Development Projects"
+    - text: "The team that gets all the cool new toys and a suspiciously flexible budget."
+      see_also: []
+
+Slay:
+  definitions:
+    - text: "Doing something really well or with confidence."
+      see_also:
+        - "slaying"
+        - "killing it"
+        - "nailing it"
+
+"Stack Overflow Driven Development (SODD)":
+  definitions:
+    - text: "A common software development practice where solutions are primarily sourced from Stack Overflow answers."
+      see_also:
+        - "SODD"
+        - "Stack Overflow Development"
+        - "Copy-Paste Development"
+    - text: "The art of copy-pasting code snippets until the program kinda works."
+      see_also: []
+
+Sus:
+  definitions:
+    - text: "Suspicious or weird."
+      see_also:
+        - "suspicious"
+        - "sketchy"
+        - "questionable"
+
+Synergy:
+  definitions:
+    - text: "The magical buzzword that appears when two or more teams are forced to collaborate."
+      see_also: []
+    - text: "A mythical state of perfect productivity often invoked in PowerPoint presentations."
+      see_also: []
+
+Yeet:
+  definitions:
+    - text: "To discard or throw something with great velocity and often, a lack of concern for its destination."
+      see_also:
+        - "yeeted"
+        - "yeeting"
+    - text: "An exclamation of excitement or approval."
+      see_also: [] 

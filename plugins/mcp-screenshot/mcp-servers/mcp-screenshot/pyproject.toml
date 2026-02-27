@@ -1,0 +1,23 @@
+[project]
+name = "mcp-screenshot"
+version = "0.1.0"
+description = "Screenshot MCP server"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=3.0.0",
+    "numpy>=2.3.2",
+    "opencv-python>=4.11.0.86",
+    "pillow>=11.3.0",
+    "pyautogui>=0.9.54",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[project.scripts]
+server = "server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

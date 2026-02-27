@@ -1,5 +1,5 @@
 {
-  "name": "fb-reel-downloader",
+  "name": "media-fb-reel-downloader",
   "version": "1.0.0",
   "description": "Download public Facebook reels/videos to local MP4 files.",
   "author": {

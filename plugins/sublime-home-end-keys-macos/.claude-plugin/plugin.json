@@ -1,9 +1,9 @@
 {
-  "name": "sublime-home-end-keys-macos",
+  "name": "sys-macos-sublime-home-end-keys",
   "version": "1.0.0",
   "description": "Bundled plugin: sublime-home-end-keys-macos",
   "skills": [
-    "SKILL.md"
+    "skills/sublime-home-end-keys-macos/SKILL.md"
   ],
   "agents": []
 }

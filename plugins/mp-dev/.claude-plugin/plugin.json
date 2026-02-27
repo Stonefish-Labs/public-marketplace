@@ -1,0 +1,32 @@
+{
+  "name": "agentic-dev-mp-dev",
+  "version": "1.0.0",
+  "description": "Plugin development tools: scaffold skills, agents, hooks, MCP servers, commands, and plugins; validate and refine components; publish to GitHub.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "skill",
+    "subagent",
+    "development",
+    "scaffolding",
+    "plugin"
+  ],
+  "skills": [
+    "skills/composition-review/SKILL.md",
+    "skills/new-agent/SKILL.md",
+    "skills/new-command/SKILL.md",
+    "skills/new-hook/SKILL.md",
+    "skills/new-mcp/SKILL.md",
+    "skills/new-plugin/SKILL.md",
+    "skills/new-skill/SKILL.md",
+    "skills/publish/SKILL.md",
+    "skills/refine-skill/SKILL.md",
+    "skills/validate-plugin/SKILL.md",
+    "skills/version-bump/SKILL.md"
+  ],
+  "agents": [
+    "agents/expert-skill-reviewer.md",
+    "agents/onboard-monorepo.md"
+  ]
+}

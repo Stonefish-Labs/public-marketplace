@@ -1,5 +1,5 @@
 {
-  "name": "docker-cleanup",
+  "name": "sys-win-docker-cleanup",
   "version": "1.0.0",
   "description": "Cross-platform Docker cleanup workflow with safe prune steps and Windows WSL2 VHDX compaction guidance.",
   "author": {

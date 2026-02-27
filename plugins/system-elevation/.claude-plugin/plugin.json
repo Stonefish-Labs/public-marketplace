@@ -1,5 +1,5 @@
 {
-  "name": "system-elevation",
+  "name": "sys-win-system-elevation",
   "version": "1.0.0",
   "description": "Run Windows commands as NT AUTHORITY\\SYSTEM using Task Scheduler with file-based output capture.",
   "author": {

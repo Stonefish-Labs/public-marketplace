@@ -1,5 +1,5 @@
 {
-  "name": "tts-ipa-pronunciation",
+  "name": "agentic-dev-tts-ipa-pronunciation",
   "version": "1.0.0",
   "description": "Review TTS scripts and replace pronunciation-sensitive words with IPA where needed to improve voice-model pronunciation while preserving script meaning and flow.",
   "author": "batteryshark",

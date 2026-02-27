@@ -1,5 +1,5 @@
 {
-  "name": "mcp-sysinfo",
+  "name": "sys-macos-sysinfo",
   "version": "0.1.0",
   "description": "FastMCP system diagnostics server for macOS, Linux, and Windows with focused tools for summary, hardware, network, storage, processes, ports, and full reports.",
   "author": {

@@ -1,5 +1,5 @@
 {
-  "name": "humanizer",
+  "name": "prosvc-humanizer",
   "version": "2.2.0",
   "description": "Remove signs of AI-generated writing from text to produce more natural, human-written prose.",
   "author": {

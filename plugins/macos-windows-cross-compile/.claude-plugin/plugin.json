@@ -1,9 +1,9 @@
 {
-  "name": "macos-windows-cross-compile",
+  "name": "sys-macos-windows-cross-compile",
   "version": "1.0.0",
   "description": "Bundled plugin: macos-windows-cross-compile",
   "skills": [
-    "SKILL.md"
+    "skills/macos-windows-cross-compile/SKILL.md"
   ],
   "agents": []
 }

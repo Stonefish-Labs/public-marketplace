@@ -1,5 +1,5 @@
 {
-  "name": "mcp-server-apple-reminders",
+  "name": "cloud-apple-reminders",
   "version": "2.1.0",
   "description": "FastMCP 3.x server for Apple Reminders integration on macOS.",
   "author": {

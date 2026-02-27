@@ -1,0 +1,21 @@
+{
+  "name": "agentic-dev-lexy",
+  "version": "1.0.0",
+  "description": "General-purpose local knowledge base search plugin with exact, BM25, and fuzzy retrieval pipelines.",
+  "author": {
+    "name": "Lexy Team"
+  },
+  "keywords": [
+    "search",
+    "retrieval",
+    "bm25",
+    "fuzzy",
+    "knowledge-base"
+  ],
+  "skills": [
+    "skills/lexy/SKILL.md"
+  ],
+  "agents": [
+    "agents/knowledge-researcher.md"
+  ]
+}

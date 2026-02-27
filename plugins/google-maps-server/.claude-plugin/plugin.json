@@ -1,5 +1,5 @@
 {
-  "name": "google-maps-server",
+  "name": "cloud-google-maps",
   "version": "0.1.0",
   "description": "Google Maps MCP server for geocoding, places, directions, and distance calculations.",
   "author": {

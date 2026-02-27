@@ -1,0 +1,18 @@
+{
+  "name": "sys-macos-screenshot",
+  "version": "0.1.0",
+  "description": "FastMCP 3.x screenshot server for smart window capture, region capture, and macOS permission diagnostics.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "mcp",
+    "macos",
+    "screenshot",
+    "window-capture",
+    "fastmcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "skills": [],
+  "agents": []
+}

@@ -1,0 +1,22 @@
+{
+  "name": "agentic-dev-mp-admin",
+  "version": "1.0.0",
+  "description": "Marketplace management skills: init, add, remove, sync, and publish for Claude Code plugin marketplaces.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "marketplace",
+    "admin",
+    "catalog",
+    "developer-tools"
+  ],
+  "skills": [
+    "skills/marketplace-add/SKILL.md",
+    "skills/marketplace-init/SKILL.md",
+    "skills/marketplace-publish/SKILL.md",
+    "skills/marketplace-remove/SKILL.md",
+    "skills/marketplace-sync/SKILL.md"
+  ],
+  "agents": []
+}

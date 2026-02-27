@@ -1,4 +1,0 @@
-bot_name = "MCP Agent"
-webhook_url = "secret://env/DISCORD_WEBHOOK_URL"
-allowed_hosts = ["discord.com"]
-timeout_seconds = 30

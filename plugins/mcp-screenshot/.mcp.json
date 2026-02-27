@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "mcp-screenshot": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "${CLAUDE_PLUGIN_ROOT}/mcp-servers/mcp-screenshot",
+        "python",
+        "server.py"
+      ]
+    }
+  }
+}

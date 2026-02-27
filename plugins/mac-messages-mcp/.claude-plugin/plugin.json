@@ -1,5 +1,5 @@
 {
-  "name": "mac-messages-mcp",
+  "name": "cloud-mac-messages",
   "version": "0.8.0",
   "description": "FastMCP 3.x bridge for interacting with the macOS Messages app with configurable confirmation policy.",
   "author": {

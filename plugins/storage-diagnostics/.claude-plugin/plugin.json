@@ -1,5 +1,5 @@
 {
-  "name": "storage-diagnostics",
+  "name": "sys-macos-storage-diagnostics",
   "version": "1.0.0",
   "description": "Disk capacity, partition usage, and storage IO diagnostics for system health triage.",
   "author": {

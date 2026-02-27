@@ -1,5 +1,5 @@
 {
-  "name": "intellidiff",
+  "name": "dev-intellidiff",
   "version": "1.0.0",
   "description": "Compare files and folders, detect duplicates, find differences, and read specific line ranges with normalization options.",
   "author": {

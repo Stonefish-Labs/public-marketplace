@@ -1,5 +1,5 @@
 {
-  "name": "findmy-server",
+  "name": "cloud-findmy",
   "version": "0.1.0",
   "description": "Apple Find My MCP server for device tracking and account-safe cache management.",
   "author": {

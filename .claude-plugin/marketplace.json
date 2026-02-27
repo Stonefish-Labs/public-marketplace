@@ -10,8 +10,8 @@
   },
   "plugins": [
     {
-      "name": "mp-fastmcp-dev",
-      "source": "./plugins/mp-fastmcp-dev",
+      "name": "agentic-dev-fastmcp-dev",
+      "source": "./plugins/fastmcp-dev",
       "description": "FastMCP development toolkit with end-to-end skills for server creation, upgrades, architecture, safety, and testing.",
       "version": "1.0.0",
       "author": {
@@ -24,31 +24,63 @@
         "python",
         "testing"
       ],
-      "category": "developer-tools"
+      "category": "agentic-dev"
     },
     {
-      "name": "project-management",
-      "description": "Project management bundle for Stonefish-Labs containing skills and commands for project briefing, bootstrap, retrospectives, and more.",
+      "name": "agentic-dev-lexy",
+      "source": "./plugins/lexy",
+      "description": "General-purpose local knowledge base search plugin with exact, BM25, and fuzzy retrieval pipelines.",
       "version": "1.0.0",
       "author": {
-        "name": "Stonefish-Labs"
+        "name": "Lexy Team"
       },
       "keywords": [
-        "project-management",
-        "agent-marketplace",
-        "skill",
-        "python"
+        "search",
+        "retrieval",
+        "bm25",
+        "fuzzy",
+        "knowledge-base"
       ],
-      "category": "productivity",
-      "source": "./plugins/project-management"
+      "category": "agentic-dev"
     },
     {
-      "name": "mp-dev",
-      "source": {
-        "source": "github",
-        "repo": "Stonefish-Labs/mp-dev"
+      "name": "agentic-dev-local-llm-prompt-evaluator",
+      "source": "./plugins/local-llm-prompt-evaluator",
+      "description": "Evaluate prompts, system prompts, and agent workflows for local LLM reliability with scored findings and concrete rewrites.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
       },
+      "keywords": [
+        "local-llm",
+        "prompt-engineering",
+        "evaluation",
+        "ollama",
+        "lm-studio"
+      ],
+      "category": "agentic-dev"
+    },
+    {
+      "name": "agentic-dev-mp-admin",
+      "source": "./plugins/mp-admin",
+      "description": "Marketplace management skills: init, add, remove, sync, and publish for Claude Code plugin marketplaces.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "marketplace",
+        "admin",
+        "catalog",
+        "developer-tools"
+      ],
+      "category": "agentic-dev"
+    },
+    {
+      "name": "agentic-dev-mp-dev",
+      "source": "./plugins/mp-dev",
       "description": "Plugin development tools: scaffold skills, agents, hooks, MCP servers, commands, and plugins; validate and refine components; publish to GitHub.",
+      "version": "1.0.0",
       "author": {
         "name": "batteryshark"
       },
@@ -59,73 +91,61 @@
         "scaffolding",
         "plugin"
       ],
-      "category": "developer-tools"
+      "category": "agentic-dev"
     },
     {
-      "name": "mp-admin",
-      "source": {
-        "source": "github",
-        "repo": "Stonefish-Labs/mp-admin"
-      },
-      "description": "Marketplace management skills: init, add, remove, sync, publish, and version bump for Claude Code plugin marketplaces.",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "skill",
-        "marketplace",
-        "admin",
-        "catalog"
-      ],
-      "category": "developer-tools"
-    },
-    {
-      "name": "disable-sleep-ubuntu",
-      "source": "./plugins/disable-sleep-ubuntu",
-      "description": "Disable or enable sleep, suspend, hibernate, and hybrid-sleep on Ubuntu systems using systemctl.",
+      "name": "agentic-dev-tts-ipa-pronunciation",
+      "source": "./plugins/tts-ipa-pronunciation",
+      "description": "Review TTS scripts and replace pronunciation-sensitive words with IPA where needed to improve voice-model pronunciation while preserving script meaning and flow.",
       "version": "1.0.0",
       "author": {
         "name": "batteryshark"
       },
       "keywords": [
-        "ubuntu",
-        "sleep",
-        "systemd",
-        "automation"
+        "tts",
+        "ipa",
+        "pronunciation",
+        "speech",
+        "voice-model"
       ],
-      "category": "automation"
+      "category": "agentic-dev"
     },
     {
-      "name": "image-crop-rotate",
-      "source": "./plugins/image-crop-rotate",
-      "description": "Image processing plugin for cropping to center and rotating 90\u00b0 clockwise.",
-      "version": "1.0.0",
-      "keywords": [
-        "image-processing",
-        "automation",
-        "utilities"
-      ],
-      "category": "automation"
-    },
-    {
-      "name": "fb-reel-downloader",
-      "source": "./plugins/fb-reel-downloader",
-      "description": "Download public Facebook reels/videos to local MP4 files.",
-      "version": "1.0.0",
+      "name": "cloud-apple-calendar",
+      "description": "FastMCP 3.x server for Apple Calendar integration on macOS.",
+      "version": "2.0.0",
       "author": {
         "name": "batteryshark"
       },
       "keywords": [
-        "facebook",
-        "reels",
-        "video-download",
-        "automation",
-        "media"
+        "macos",
+        "calendar",
+        "apple",
+        "mcp",
+        "productivity"
       ],
-      "category": "automation"
+      "category": "cloud",
+      "source": "./plugins/mcp-server-apple-calendar"
     },
     {
-      "name": "findmy-server",
+      "name": "cloud-apple-reminders",
+      "description": "FastMCP 3.x server for Apple Reminders integration on macOS.",
+      "version": "2.1.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "reminders",
+        "apple",
+        "mcp",
+        "productivity"
+      ],
+      "category": "cloud",
+      "source": "./plugins/mcp-server-apple-reminders"
+    },
+    {
+      "name": "cloud-findmy",
       "source": "./plugins/findmy-server",
       "description": "Apple Find My MCP server for device tracking and account-safe cache management.",
       "version": "0.1.0",
@@ -139,10 +159,10 @@
         "mcp",
         "automation"
       ],
-      "category": "automation"
+      "category": "cloud"
     },
     {
-      "name": "google-maps-server",
+      "name": "cloud-google-maps",
       "source": "./plugins/google-maps-server",
       "description": "Google Maps MCP server for geocoding, places, directions, and distance calculations.",
       "version": "0.1.0",
@@ -157,57 +177,61 @@
         "mcp",
         "automation"
       ],
-      "category": "automation"
+      "category": "cloud"
     },
     {
-      "name": "jefit-mcp",
-      "source": "./plugins/jefit-mcp",
-      "description": "MCP server plugin for JEFit workout history and per-session exercise analysis.",
-      "version": "0.1.0",
+      "name": "cloud-mac-messages",
+      "source": "./plugins/mac-messages-mcp",
+      "description": "FastMCP 3.x server for macOS Messages search, contact lookup, and guarded message sending with profile-based confirmation policy.",
+      "version": "0.8.0",
       "author": {
         "name": "batteryshark"
       },
       "keywords": [
-        "jefit",
-        "fitness",
-        "workouts",
+        "macos",
+        "messages",
+        "mcp",
+        "productivity",
+        "imessage"
+      ],
+      "category": "cloud"
+    },
+    {
+      "name": "cloud-sandals",
+      "source": "./plugins/sandals-mcp",
+      "description": "MCP server plugin for Sandals and Beaches resort discovery, live availability, and optional price watch alerts.",
+      "version": "2.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "sandals",
+        "beaches",
+        "travel",
         "mcp",
         "automation"
       ],
-      "category": "automation"
+      "category": "cloud"
     },
     {
-      "name": "discord-notifier",
-      "source": "./plugins/discord-notifier",
-      "description": "Send Discord channel alerts via webhook with profile-based secret resolution and validation.",
-      "version": "1.0.0",
-      "keywords": [
-        "discord",
-        "notifications",
-        "webhook",
-        "alerts",
-        "automation"
-      ],
-      "category": "automation"
-    },
-    {
-      "name": "waffle-house-callout",
-      "source": "./plugins/waffle-house-callout",
-      "description": "Turn any input into a funny Waffle House-style Pull Drop Mark kitchen callout.",
+      "name": "dev-github-publish",
+      "source": "./plugins/github-publish",
+      "description": "Publish projects to GitHub cleanly with repository setup, .gitignore strategy, README baselines, topics, and push workflows.",
       "version": "1.0.0",
       "author": {
         "name": "batteryshark"
       },
       "keywords": [
-        "humor",
-        "waffle-house",
-        "prompt-formatting",
-        "creative-writing"
+        "github",
+        "git",
+        "publishing",
+        "repository-setup",
+        "developer-tools"
       ],
-      "category": "productivity"
+      "category": "dev"
     },
     {
-      "name": "intellidiff",
+      "name": "dev-intellidiff",
       "source": "./plugins/intellidiff",
       "description": "Compare files and folders, detect duplicates, find differences, and read specific line ranges with normalization options.",
       "version": "1.0.0",
@@ -221,92 +245,23 @@
         "folders",
         "developer-tools"
       ],
-      "category": "developer-tools"
+      "category": "dev"
     },
     {
-      "name": "disable-windows-ai",
-      "source": "./plugins/disable-windows-ai",
-      "description": "Disable Windows 11 AI features including Copilot, Recall, Edge AI, and app-level AI integrations.",
+      "name": "dev-project-management",
+      "description": "Project management bundle for Stonefish-Labs containing skills and commands for project briefing, bootstrap, retrospectives, and more.",
       "version": "1.0.0",
       "author": {
-        "name": "batteryshark"
+        "name": "Stonefish-Labs"
       },
       "keywords": [
-        "windows",
-        "copilot",
-        "recall",
-        "privacy",
-        "automation"
+        "project-management",
+        "agent-marketplace",
+        "skill",
+        "python"
       ],
-      "category": "automation"
-    },
-    {
-      "name": "docker-cleanup",
-      "source": "./plugins/docker-cleanup",
-      "description": "Cross-platform Docker cleanup workflow with safe prune steps and Windows WSL2 VHDX compaction guidance.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "docker",
-        "cleanup",
-        "disk-space",
-        "windows",
-        "wsl2"
-      ],
-      "category": "automation"
-    },
-    {
-      "name": "system-elevation",
-      "source": "./plugins/system-elevation",
-      "description": "Run Windows commands as NT AUTHORITY\\SYSTEM using Task Scheduler with file-based output capture.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "windows",
-        "system",
-        "elevation",
-        "task-scheduler",
-        "administration"
-      ],
-      "category": "automation"
-    },
-    {
-      "name": "windows-elevation",
-      "source": "./plugins/windows-elevation",
-      "description": "Run elevated Windows commands while preserving visible stdout/stderr using inline sudo or gsudo.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "windows",
-        "sudo",
-        "gsudo",
-        "elevation",
-        "automation"
-      ],
-      "category": "automation"
-    },
-    {
-      "name": "local-llm-prompt-evaluator",
-      "source": "./plugins/local-llm-prompt-evaluator",
-      "description": "Evaluate prompts, system prompts, and agent workflows for local LLM reliability with scored findings and concrete rewrites.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "local-llm",
-        "prompt-engineering",
-        "evaluation",
-        "ollama",
-        "lm-studio"
-      ],
-      "category": "developer-tools"
+      "category": "dev",
+      "source": "./plugins/project-management"
     },
     {
       "name": "dev-retro",
@@ -323,160 +278,7 @@
         "session-analysis",
         "productivity"
       ],
-      "category": "developer-tools"
-    },
-    {
-      "name": "anchor-year-method",
-      "source": "./plugins/anchor-year-method",
-      "description": "Guide users through the Anchor Year Method to uncover rich autobiographical memories for legacy journals, memoirs, and personal history interviews.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "memory",
-        "journaling",
-        "memoir",
-        "interviewing"
-      ],
-      "category": "productivity"
-    },
-    {
-      "name": "tetris-guideline-compliance",
-      "source": "./plugins/tetris-guideline-compliance",
-      "description": "Single-player Tetris 2009 guideline skill pack with deterministic compliance reviewer and scoring rubric.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "tetris",
-        "game-design",
-        "compliance",
-        "reviewer",
-        "ios",
-        "unity"
-      ],
-      "category": "developer-tools"
-    },
-    {
-      "name": "aidoomd",
-      "source": "./plugins/aidoomd",
-      "description": "Doom map design and QA plugin with skills for consultation, IR generation, and validation plus an independent reviewer agent.",
-      "version": "1.0.0",
-      "author": {
-        "name": "aidoomd contributors"
-      },
-      "keywords": [
-        "doom",
-        "map-generation",
-        "game-design",
-        "qa",
-        "developer-tools"
-      ],
-      "category": "developer-tools"
-    },
-    {
-      "name": "tts-ipa-pronunciation",
-      "source": "./plugins/tts-ipa-pronunciation",
-      "description": "Review TTS scripts and replace pronunciation-sensitive words with IPA where needed to improve voice-model pronunciation while preserving script meaning and flow.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "tts",
-        "ipa",
-        "pronunciation",
-        "speech",
-        "voice-model"
-      ],
-      "category": "productivity"
-    },
-    {
-      "name": "research-intelligence-plugin",
-      "source": "./plugins/research-intelligence-plugin",
-      "description": "Research-to-decision workflow plugin combining deep research, strict technical editing, and executive summary synthesis with structured subagent contracts.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "research",
-        "analysis",
-        "editorial-review",
-        "executive-summary",
-        "developer-tools"
-      ],
-      "category": "developer-tools"
-    },
-    {
-      "name": "code-forensics-plugin",
-      "source": "./plugins/code-forensics-plugin",
-      "description": "Security-focused codebase reconnaissance plugin with structured OWASP-mapped findings and a dedicated forensic analysis subagent.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "security",
-        "forensics",
-        "owasp",
-        "code-review",
-        "developer-tools"
-      ],
-      "category": "developer-tools"
-    },
-    {
-      "name": "people-coaching-plugin",
-      "source": "./plugins/people-coaching-plugin",
-      "description": "Structured coaching and reflective prompt plugin covering manager coaching, challenge prompts, talent discovery, and guardrailed introspection.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "coaching",
-        "communication",
-        "reflection",
-        "leadership",
-        "productivity"
-      ],
-      "category": "productivity"
-    },
-    {
-      "name": "mcp-myfitnesspal",
-      "source": "./plugins/mcp-myfitnesspal",
-      "description": "MCP server plugin for MyFitnessPal nutrition, meals, exercise, and hydration summaries.",
-      "version": "0.1.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "myfitnesspal",
-        "fitness",
-        "nutrition",
-        "mcp",
-        "automation"
-      ],
-      "category": "automation"
-    },
-    {
-      "name": "dev-snippets-linux-bash",
-      "source": "./plugins/dev-snippets-linux-bash",
-      "description": "Linux and Bash snippet workflows for resilient downloads and ELF dependency packaging with verification and rollback guidance.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "linux",
-        "bash",
-        "shell",
-        "elf",
-        "developer-tools"
-      ],
-      "category": "developer-tools"
+      "category": "dev"
     },
     {
       "name": "dev-snippets-python-utilities",
@@ -493,10 +295,211 @@
         "asyncio",
         "developer-tools"
       ],
-      "category": "developer-tools"
+      "category": "dev"
     },
     {
-      "name": "dev-snippets-lowlevel-security",
+      "name": "legacy-journal-anchor-year-method",
+      "source": "./plugins/anchor-year-method",
+      "description": "Guide users through the Anchor Year Method to uncover rich autobiographical memories for legacy journals, memoirs, and personal history interviews.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "memory",
+        "journaling",
+        "memoir",
+        "interviewing"
+      ],
+      "category": "legacy-journal"
+    },
+    {
+      "name": "lifestyle-jefit",
+      "source": "./plugins/jefit-mcp",
+      "description": "MCP server plugin for JEFit workout history and per-session exercise analysis.",
+      "version": "0.1.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "jefit",
+        "fitness",
+        "workouts",
+        "mcp",
+        "automation"
+      ],
+      "category": "lifestyle"
+    },
+    {
+      "name": "lifestyle-myfitnesspal",
+      "source": "./plugins/mcp-myfitnesspal",
+      "description": "MCP server plugin for MyFitnessPal nutrition, meals, exercise, and hydration summaries.",
+      "version": "0.1.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "myfitnesspal",
+        "fitness",
+        "nutrition",
+        "mcp",
+        "automation"
+      ],
+      "category": "lifestyle"
+    },
+    {
+      "name": "lifestyle-people-coaching",
+      "source": "./plugins/people-coaching-plugin",
+      "description": "Structured coaching and reflective prompt plugin covering manager coaching, challenge prompts, talent discovery, and guardrailed introspection.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "coaching",
+        "communication",
+        "reflection",
+        "leadership",
+        "productivity"
+      ],
+      "category": "lifestyle"
+    },
+    {
+      "name": "media-fb-reel-downloader",
+      "source": "./plugins/fb-reel-downloader",
+      "description": "Download public Facebook reels/videos to local MP4 files.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "facebook",
+        "reels",
+        "video-download",
+        "automation",
+        "media"
+      ],
+      "category": "media-content"
+    },
+    {
+      "name": "media-image-crop-rotate",
+      "source": "./plugins/image-crop-rotate",
+      "description": "Image processing plugin for cropping to center and rotating 90\u00b0 clockwise.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "image-processing",
+        "automation",
+        "utilities"
+      ],
+      "category": "media-content"
+    },
+    {
+      "name": "meme-aidoomd",
+      "source": "./plugins/aidoomd",
+      "description": "Doom map design and QA plugin with skills for consultation, IR generation, and validation plus an independent reviewer agent.",
+      "version": "1.0.0",
+      "author": {
+        "name": "aidoomd contributors"
+      },
+      "keywords": [
+        "doom",
+        "map-generation",
+        "game-design",
+        "qa",
+        "developer-tools"
+      ],
+      "category": "meme"
+    },
+    {
+      "name": "meme-tetris-guideline-compliance",
+      "source": "./plugins/tetris-guideline-compliance",
+      "description": "Single-player Tetris 2009 guideline skill pack with deterministic compliance reviewer and scoring rubric.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "tetris",
+        "game-design",
+        "compliance",
+        "reviewer",
+        "ios",
+        "unity"
+      ],
+      "category": "meme"
+    },
+    {
+      "name": "meme-waffle-house-callout",
+      "source": "./plugins/waffle-house-callout",
+      "description": "Turn any input into a funny Waffle House-style Pull Drop Mark kitchen callout.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "humor",
+        "waffle-house",
+        "prompt-formatting",
+        "creative-writing"
+      ],
+      "category": "meme"
+    },
+    {
+      "name": "prosvc-humanizer",
+      "source": "./plugins/humanizer",
+      "description": "Remove signs of AI-generated writing from text to produce more natural, human-written prose.",
+      "version": "2.2.0",
+      "author": {
+        "name": "biostartechnology"
+      },
+      "keywords": [
+        "writing",
+        "editing",
+        "style",
+        "humanization",
+        "ai-detection"
+      ],
+      "category": "professional-services"
+    },
+    {
+      "name": "prosvc-research-intelligence",
+      "source": "./plugins/research-intelligence-plugin",
+      "description": "Research-to-decision workflow plugin combining deep research, strict technical editing, and executive summary synthesis with structured subagent contracts.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "research",
+        "analysis",
+        "editorial-review",
+        "executive-summary",
+        "developer-tools"
+      ],
+      "category": "professional-services"
+    },
+    {
+      "name": "sec-code-forensics",
+      "source": "./plugins/code-forensics-plugin",
+      "description": "Security-focused codebase reconnaissance plugin with structured OWASP-mapped findings and a dedicated forensic analysis subagent.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "security",
+        "forensics",
+        "owasp",
+        "code-review",
+        "developer-tools"
+      ],
+      "category": "security-privacy"
+    },
+    {
+      "name": "sec-dev-snippets-lowlevel-security",
       "source": "./plugins/dev-snippets-lowlevel-security",
       "description": "Defensive low-level security and forensics snippets with deny-by-default guardrails, routing, and safety review agents.",
       "version": "1.0.0",
@@ -510,214 +513,43 @@
         "safety",
         "developer-tools"
       ],
-      "category": "security"
+      "category": "security-privacy"
     },
     {
-      "name": "github-publish",
-      "source": "./plugins/github-publish",
-      "description": "Publish projects to GitHub cleanly with repository setup, .gitignore strategy, README baselines, topics, and push workflows.",
+      "name": "sys-linux-dev-snippets-linux-bash",
+      "source": "./plugins/dev-snippets-linux-bash",
+      "description": "Linux and Bash snippet workflows for resilient downloads and ELF dependency packaging with verification and rollback guidance.",
       "version": "1.0.0",
       "author": {
         "name": "batteryshark"
       },
       "keywords": [
-        "github",
-        "git",
-        "publishing",
-        "repository-setup",
+        "linux",
+        "bash",
+        "shell",
+        "elf",
         "developer-tools"
       ],
-      "category": "developer-tools"
+      "category": "system-management-linux"
     },
     {
-      "name": "sandals-mcp",
-      "source": "./plugins/sandals-mcp",
-      "description": "MCP server plugin for Sandals and Beaches resort discovery, live availability, and optional price watch alerts.",
-      "version": "2.1.0",
+      "name": "sys-linux-disable-sleep-ubuntu",
+      "source": "./plugins/disable-sleep-ubuntu",
+      "description": "Disable or enable sleep, suspend, hibernate, and hybrid-sleep on Ubuntu systems using systemctl.",
+      "version": "1.0.0",
       "author": {
         "name": "batteryshark"
       },
       "keywords": [
-        "sandals",
-        "beaches",
-        "travel",
-        "mcp",
+        "ubuntu",
+        "sleep",
+        "systemd",
         "automation"
       ],
-      "category": "automation"
+      "category": "system-management-linux"
     },
     {
-      "name": "mac-messages-mcp",
-      "source": "./plugins/mac-messages-mcp",
-      "description": "FastMCP 3.x server for macOS Messages search, contact lookup, and guarded message sending with profile-based confirmation policy.",
-      "version": "0.8.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "macos",
-        "messages",
-        "mcp",
-        "productivity",
-        "imessage"
-      ],
-      "category": "macos-productivity"
-    },
-    {
-      "name": "mcp-server-apple-calendar",
-      "description": "FastMCP 3.x server for Apple Calendar integration on macOS.",
-      "version": "2.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "macos",
-        "calendar",
-        "apple",
-        "mcp",
-        "productivity"
-      ],
-      "category": "macos-productivity",
-      "source": "./plugins/mcp-server-apple-calendar"
-    },
-    {
-      "name": "mcp-server-apple-reminders",
-      "description": "FastMCP 3.x server for Apple Reminders integration on macOS.",
-      "version": "2.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "macos",
-        "reminders",
-        "apple",
-        "mcp",
-        "productivity"
-      ],
-      "category": "macos-productivity",
-      "source": "./plugins/mcp-server-apple-reminders"
-    },
-    {
-      "name": "system-summary",
-      "description": "Baseline machine identity and hardware diagnostics for macOS, Linux, and Windows.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "macos",
-        "system",
-        "hardware",
-        "diagnostics",
-        "management"
-      ],
-      "category": "macos-management",
-      "source": "./plugins/system-summary"
-    },
-    {
-      "name": "process-observability",
-      "description": "Runtime process diagnostics with privacy-minimized defaults and optional path-level forensics.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "macos",
-        "processes",
-        "cpu",
-        "memory",
-        "diagnostics"
-      ],
-      "category": "macos-management",
-      "source": "./plugins/process-observability"
-    },
-    {
-      "name": "storage-diagnostics",
-      "description": "Disk capacity, partition usage, and storage IO diagnostics for system health triage.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "macos",
-        "storage",
-        "disk",
-        "io",
-        "diagnostics"
-      ],
-      "category": "macos-management",
-      "source": "./plugins/storage-diagnostics"
-    },
-    {
-      "name": "device-display-diagnostics",
-      "description": "Peripheral and monitor diagnostics covering USB, Bluetooth, and display state.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "macos",
-        "devices",
-        "display",
-        "usb",
-        "bluetooth"
-      ],
-      "category": "macos-management",
-      "source": "./plugins/device-display-diagnostics"
-    },
-    {
-      "name": "network-ports-diagnostics",
-      "description": "Local-only network and listening-port diagnostics without public-IP egress.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "macos",
-        "network",
-        "ports",
-        "connectivity",
-        "diagnostics"
-      ],
-      "category": "macos-management",
-      "source": "./plugins/network-ports-diagnostics"
-    },
-    {
-      "name": "external-ip",
-      "description": "Explicit outbound public-IP lookup skill with multi-provider fallback strategy.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "macos",
-        "network",
-        "external-ip",
-        "egress",
-        "diagnostics"
-      ],
-      "category": "macos-management",
-      "source": "./plugins/external-ip"
-    },
-    {
-      "name": "mcp-sysinfo",
-      "description": "FastMCP system diagnostics server for macOS, Linux, and Windows with focused tools for summary, hardware, network, storage, processes, ports, and full reports.",
-      "version": "0.1.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "mcp",
-        "macos",
-        "system-info",
-        "diagnostics",
-        "fastmcp"
-      ],
-      "category": "macos-management",
-      "source": "./plugins/mcp-sysinfo"
-    },
-    {
-      "name": "macos-battery-charging-check",
+      "name": "sys-macos-battery-charging-check",
       "description": "Check charging state, detected adapter wattage, and live power events on macOS.",
       "version": "1.0.0",
       "author": {
@@ -730,11 +562,96 @@
         "power",
         "diagnostics"
       ],
-      "category": "macos-management",
+      "category": "system-management-macos",
       "source": "./plugins/macos-battery-charging-check"
     },
     {
-      "name": "macos-remove-quarantine",
+      "name": "sys-macos-demacify",
+      "description": "Strip macOS metadata files from directories before archiving, sharing, or transferring to non-Mac systems.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "cleanup",
+        "archive",
+        "metadata",
+        "file-management"
+      ],
+      "category": "system-management-macos",
+      "source": "./plugins/demacify"
+    },
+    {
+      "name": "sys-macos-device-display-diagnostics",
+      "description": "Peripheral and monitor diagnostics covering USB, Bluetooth, and display state.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "devices",
+        "display",
+        "usb",
+        "bluetooth"
+      ],
+      "category": "system-management-macos",
+      "source": "./plugins/device-display-diagnostics"
+    },
+    {
+      "name": "sys-macos-external-ip",
+      "description": "Explicit outbound public-IP lookup skill with multi-provider fallback strategy.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "network",
+        "external-ip",
+        "egress",
+        "diagnostics"
+      ],
+      "category": "system-management-macos",
+      "source": "./plugins/external-ip"
+    },
+    {
+      "name": "sys-macos-network-ports-diagnostics",
+      "description": "Local-only network and listening-port diagnostics without public-IP egress.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "network",
+        "ports",
+        "connectivity",
+        "diagnostics"
+      ],
+      "category": "system-management-macos",
+      "source": "./plugins/network-ports-diagnostics"
+    },
+    {
+      "name": "sys-macos-process-observability",
+      "description": "Runtime process diagnostics with privacy-minimized defaults and optional path-level forensics.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "processes",
+        "cpu",
+        "memory",
+        "diagnostics"
+      ],
+      "category": "system-management-macos",
+      "source": "./plugins/process-observability"
+    },
+    {
+      "name": "sys-macos-remove-quarantine",
       "description": "Inspect and remove macOS quarantine attributes from trusted files and directories.",
       "version": "1.0.0",
       "author": {
@@ -747,45 +664,45 @@
         "xattr",
         "security"
       ],
-      "category": "macos-management",
+      "category": "system-management-macos",
       "source": "./plugins/macos-remove-quarantine"
     },
     {
-      "name": "macos-windows-cross-compile",
-      "description": "Set up MinGW-w64 on macOS to cross-compile C/C++ binaries for Windows.",
+      "name": "sys-macos-screenshot",
+      "description": "FastMCP 3.x screenshot server for smart window capture, region capture, and macOS permission diagnostics.",
+      "version": "0.1.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "mcp",
+        "macos",
+        "screenshot",
+        "window-capture",
+        "fastmcp"
+      ],
+      "category": "system-management-macos",
+      "source": "./plugins/mcp-screenshot"
+    },
+    {
+      "name": "sys-macos-storage-diagnostics",
+      "description": "Disk capacity, partition usage, and storage IO diagnostics for system health triage.",
       "version": "1.0.0",
       "author": {
         "name": "batteryshark"
       },
       "keywords": [
         "macos",
-        "windows",
-        "cross-compile",
-        "mingw-w64",
-        "developer-tools"
+        "storage",
+        "disk",
+        "io",
+        "diagnostics"
       ],
-      "category": "macos-management",
-      "source": "./plugins/macos-windows-cross-compile"
+      "category": "system-management-macos",
+      "source": "./plugins/storage-diagnostics"
     },
     {
-      "name": "macos-wine-setup",
-      "description": "Install and verify Wine, XQuartz, and Winetricks on macOS.",
-      "version": "1.0.0",
-      "author": {
-        "name": "batteryshark"
-      },
-      "keywords": [
-        "macos",
-        "wine",
-        "xquartz",
-        "winetricks",
-        "compatibility"
-      ],
-      "category": "macos-management",
-      "source": "./plugins/macos-wine-setup"
-    },
-    {
-      "name": "sublime-home-end-keys-macos",
+      "name": "sys-macos-sublime-home-end-keys",
       "description": "Fix Home/End key behavior in Sublime Text on macOS for line-level navigation.",
       "version": "1.0.0",
       "author": {
@@ -798,8 +715,161 @@
         "home-end",
         "productivity"
       ],
-      "category": "macos-management",
+      "category": "system-management-macos",
       "source": "./plugins/sublime-home-end-keys-macos"
+    },
+    {
+      "name": "sys-macos-sysinfo",
+      "description": "FastMCP system diagnostics server for macOS, Linux, and Windows with focused tools for summary, hardware, network, storage, processes, ports, and full reports.",
+      "version": "0.1.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "mcp",
+        "macos",
+        "system-info",
+        "diagnostics",
+        "fastmcp"
+      ],
+      "category": "system-management-macos",
+      "source": "./plugins/mcp-sysinfo"
+    },
+    {
+      "name": "sys-macos-system-summary",
+      "description": "Baseline machine identity and hardware diagnostics for macOS, Linux, and Windows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "system",
+        "hardware",
+        "diagnostics",
+        "management"
+      ],
+      "category": "system-management-macos",
+      "source": "./plugins/system-summary"
+    },
+    {
+      "name": "sys-macos-windows-cross-compile",
+      "description": "Set up MinGW-w64 on macOS to cross-compile C/C++ binaries for Windows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "windows",
+        "cross-compile",
+        "mingw-w64",
+        "developer-tools"
+      ],
+      "category": "system-management-macos",
+      "source": "./plugins/macos-windows-cross-compile"
+    },
+    {
+      "name": "sys-macos-wine-setup",
+      "description": "Install and verify Wine, XQuartz, and Winetricks on macOS.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "wine",
+        "xquartz",
+        "winetricks",
+        "compatibility"
+      ],
+      "category": "system-management-macos",
+      "source": "./plugins/macos-wine-setup"
+    },
+    {
+      "name": "sys-win-disable-windows-ai",
+      "source": "./plugins/disable-windows-ai",
+      "description": "Disable Windows 11 AI features including Copilot, Recall, Edge AI, and app-level AI integrations.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "windows",
+        "copilot",
+        "recall",
+        "privacy",
+        "automation"
+      ],
+      "category": "system-management-windows"
+    },
+    {
+      "name": "sys-win-docker-cleanup",
+      "source": "./plugins/docker-cleanup",
+      "description": "Cross-platform Docker cleanup workflow with safe prune steps and Windows WSL2 VHDX compaction guidance.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "docker",
+        "cleanup",
+        "disk-space",
+        "windows",
+        "wsl2"
+      ],
+      "category": "system-management-windows"
+    },
+    {
+      "name": "sys-win-elevation",
+      "source": "./plugins/windows-elevation",
+      "description": "Run elevated Windows commands while preserving visible stdout/stderr using inline sudo or gsudo.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "windows",
+        "sudo",
+        "gsudo",
+        "elevation",
+        "automation"
+      ],
+      "category": "system-management-windows"
+    },
+    {
+      "name": "sys-win-system-elevation",
+      "source": "./plugins/system-elevation",
+      "description": "Run Windows commands as NT AUTHORITY\\SYSTEM using Task Scheduler with file-based output capture.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "windows",
+        "system",
+        "elevation",
+        "task-scheduler",
+        "administration"
+      ],
+      "category": "system-management-windows"
+    },
+    {
+      "name": "webhook-discord-notifier",
+      "source": "./plugins/discord-notifier",
+      "description": "Send Discord channel alerts via webhook with profile-based secret resolution and validation.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "discord",
+        "notifications",
+        "webhook",
+        "alerts",
+        "automation"
+      ],
+      "category": "webhooks"
     }
   ]
 }

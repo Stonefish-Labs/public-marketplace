@@ -1,5 +1,5 @@
 {
-  "name": "code-forensics-plugin",
+  "name": "sec-code-forensics",
   "version": "1.0.0",
   "description": "Security-focused codebase reconnaissance plugin with structured OWASP-mapped findings and a dedicated forensic analysis subagent.",
   "author": {
