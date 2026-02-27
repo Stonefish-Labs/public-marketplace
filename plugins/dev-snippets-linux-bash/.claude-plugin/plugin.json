@@ -1,0 +1,19 @@
+{
+  "name": "dev-snippets-linux-bash",
+  "version": "1.0.0",
+  "description": "Linux and Bash snippet workflows for resilient downloads and ELF dependency packaging with verification and rollback guidance.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "linux",
+    "bash",
+    "shell",
+    "elf",
+    "developer-tools"
+  ],
+  "skills": [
+    "skills/linux-bash-snippets/SKILL.md"
+  ],
+  "agents": []
+}

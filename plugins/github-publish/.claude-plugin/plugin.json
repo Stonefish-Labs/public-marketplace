@@ -1,0 +1,19 @@
+{
+  "name": "github-publish",
+  "version": "1.0.0",
+  "description": "Publish projects to GitHub cleanly with repository setup, .gitignore strategy, README baselines, topics, and push workflows.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "github",
+    "git",
+    "publishing",
+    "repository-setup",
+    "developer-tools"
+  ],
+  "skills": [
+    "skills/github-publish/SKILL.md"
+  ],
+  "agents": []
+}

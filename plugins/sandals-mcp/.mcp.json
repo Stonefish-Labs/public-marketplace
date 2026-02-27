@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "sandals-mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "server"
+      ],
+      "cwd": "${CLAUDE_PLUGIN_ROOT}/mcp-servers/sandals-mcp",
+      "env": {}
+    }
+  }
+}

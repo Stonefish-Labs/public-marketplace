@@ -1,0 +1,16 @@
+[
+  {
+    "watch_id": "SMB_B1B_2024-07-01_2024-07-08_1756767585",
+    "watch_name": "Test Watch",
+    "resort_code": "SMB",
+    "room_code": "B1B",
+    "check_in_date": "2024-07-01",
+    "check_out_date": "2024-07-08",
+    "max_price": 5000.0,
+    "guests": 2,
+    "created_at": "2025-09-01T18:59:45.203880",
+    "last_checked": null,
+    "last_price": null,
+    "active": true
+  }
+]

@@ -28,16 +28,19 @@
     },
     {
       "name": "project-management",
-      "source": {
-        "source": "github",
-        "repo": "Stonefish-Labs/project-management"
+      "description": "Project management bundle for Stonefish-Labs containing skills and commands for project briefing, bootstrap, retrospectives, and more.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Stonefish-Labs"
       },
       "keywords": [
         "project-management",
+        "agent-marketplace",
         "skill",
         "python"
       ],
-      "category": "productivity"
+      "category": "productivity",
+      "source": "./plugins/project-management"
     },
     {
       "name": "mp-dev",
@@ -453,6 +456,91 @@
         "myfitnesspal",
         "fitness",
         "nutrition",
+        "mcp",
+        "automation"
+      ],
+      "category": "automation"
+    },
+    {
+      "name": "dev-snippets-linux-bash",
+      "source": "./plugins/dev-snippets-linux-bash",
+      "description": "Linux and Bash snippet workflows for resilient downloads and ELF dependency packaging with verification and rollback guidance.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "linux",
+        "bash",
+        "shell",
+        "elf",
+        "developer-tools"
+      ],
+      "category": "developer-tools"
+    },
+    {
+      "name": "dev-snippets-python-utilities",
+      "source": "./plugins/dev-snippets-python-utilities",
+      "description": "Python utility snippets for keyring-backed secrets, HTML-to-Markdown conversion, and sync/async compatibility patterns.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "python",
+        "utilities",
+        "keyring",
+        "asyncio",
+        "developer-tools"
+      ],
+      "category": "developer-tools"
+    },
+    {
+      "name": "dev-snippets-lowlevel-security",
+      "source": "./plugins/dev-snippets-lowlevel-security",
+      "description": "Defensive low-level security and forensics snippets with deny-by-default guardrails, routing, and safety review agents.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "security",
+        "forensics",
+        "low-level",
+        "safety",
+        "developer-tools"
+      ],
+      "category": "security"
+    },
+    {
+      "name": "github-publish",
+      "source": "./plugins/github-publish",
+      "description": "Publish projects to GitHub cleanly with repository setup, .gitignore strategy, README baselines, topics, and push workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "github",
+        "git",
+        "publishing",
+        "repository-setup",
+        "developer-tools"
+      ],
+      "category": "developer-tools"
+    },
+    {
+      "name": "sandals-mcp",
+      "source": "./plugins/sandals-mcp",
+      "description": "MCP server plugin for Sandals and Beaches resort discovery, live availability, and optional price watch alerts.",
+      "version": "2.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "sandals",
+        "beaches",
+        "travel",
         "mcp",
         "automation"
       ],

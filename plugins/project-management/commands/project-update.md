@@ -1,0 +1,1 @@
+Read and follow the skill at `skills/project-update/SKILL.md`. You are logging a status update on a project. If the user specified a project name, update that one. If not, check Active/ and ask which project they're updating. Keep it efficient -- capture what happened, update the files, confirm, done.

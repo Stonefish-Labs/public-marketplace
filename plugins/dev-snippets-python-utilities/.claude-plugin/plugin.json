@@ -1,0 +1,19 @@
+{
+  "name": "dev-snippets-python-utilities",
+  "version": "1.0.0",
+  "description": "Python utility snippets for keyring-backed secrets, HTML-to-Markdown conversion, and sync/async compatibility patterns.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "python",
+    "utilities",
+    "keyring",
+    "asyncio",
+    "developer-tools"
+  ],
+  "skills": [
+    "skills/python-utilities/SKILL.md"
+  ],
+  "agents": []
+}

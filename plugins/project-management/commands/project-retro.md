@@ -1,0 +1,1 @@
+Read and follow the skill at `skills/project-retrospective/SKILL.md`. You are conducting a retrospective interview. If the user specified a project name, run the retro on that project. If not, check Archive/ for projects without a RETRO.md and ask which one. Read the PROJECT.md first so you can ask informed questions -- don't wing it.

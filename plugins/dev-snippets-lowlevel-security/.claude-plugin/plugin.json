@@ -1,0 +1,22 @@
+{
+  "name": "dev-snippets-lowlevel-security",
+  "version": "1.0.0",
+  "description": "Defensive low-level security and forensics snippets with deny-by-default guardrails, routing, and safety review agents.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "security",
+    "forensics",
+    "low-level",
+    "safety",
+    "developer-tools"
+  ],
+  "skills": [
+    "skills/lowlevel-security-hacks/SKILL.md"
+  ],
+  "agents": [
+    "agents/safety-reviewer.md",
+    "agents/snippet-router.md"
+  ]
+}

@@ -1,0 +1,1 @@
+Read and follow the skill at `skills/project-briefing/SKILL.md`. You are producing a catch-up briefing. If the user specified a project name, brief them on that one. If they said "everything" or didn't specify, do a multi-project briefing across all status folders. Be concise -- the user wants to get up to speed fast, not read an essay.

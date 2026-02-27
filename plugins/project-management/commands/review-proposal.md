@@ -1,0 +1,1 @@
+Read and follow the skill at `skills/proposal-gate/SKILL.md`. You are reviewing proposals for readiness. If the user specified a proposal name, run single review mode on that proposal. If no specific proposal was mentioned, run triage mode across all proposals in `Proposed/`. Gates are gates -- don't bend them.
