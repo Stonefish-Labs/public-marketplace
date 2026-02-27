@@ -1,0 +1,19 @@
+{
+  "name": "local-llm-prompt-evaluator",
+  "version": "1.0.0",
+  "description": "Evaluates prompts, system instructions, and agentic workflows for local LLM fitness with structured findings and concrete rewrite recommendations.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "local-llm",
+    "prompt-engineering",
+    "evaluation",
+    "ollama",
+    "lm-studio"
+  ],
+  "skills": [
+    "skills/local-llm-prompt-evaluator/SKILL.md"
+  ],
+  "agents": []
+}

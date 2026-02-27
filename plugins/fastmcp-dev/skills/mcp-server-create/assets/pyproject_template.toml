@@ -1,0 +1,24 @@
+[project]
+name = "mcp-my-server"
+version = "0.1.0"
+description = "MCP server for [purpose]"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=3.0.0",
+]
+
+[project.scripts]
+server = "server:main"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-asyncio"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,19 @@
+{
+  "name": "fb-reel-downloader",
+  "version": "1.0.0",
+  "description": "Download public Facebook reels/videos to local MP4 files.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "facebook",
+    "reels",
+    "video-download",
+    "automation",
+    "media"
+  ],
+  "skills": [
+    "skills/fb-reel-downloader/SKILL.md"
+  ],
+  "agents": []
+}

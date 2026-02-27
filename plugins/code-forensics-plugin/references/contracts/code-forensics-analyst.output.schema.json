@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "code-forensics-analyst output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "project_overview",
+    "risk_findings",
+    "owasp_mapping",
+    "unknowns"
+  ],
+  "properties": {
+    "project_overview": {
+      "type": "string",
+      "minLength": 1
+    },
+    "risk_findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "severity",
+          "confidence",
+          "evidence"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high",
+              "critical"
+            ]
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "evidence": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "owasp_mapping": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "finding_title",
+          "category"
+        ],
+        "properties": {
+          "finding_title": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "pattern": "^A(0[1-9]|10):2021"
+          }
+        }
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

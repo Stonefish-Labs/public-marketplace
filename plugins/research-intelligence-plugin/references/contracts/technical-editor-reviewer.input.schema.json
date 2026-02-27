@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "technical-editor-reviewer input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "text",
+    "audience_mode",
+    "strictness"
+  ],
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "audience_mode": {
+      "type": "string",
+      "enum": [
+        "general",
+        "executive",
+        "engineering",
+        "spec"
+      ]
+    },
+    "strictness": {
+      "type": "string",
+      "enum": [
+        "normal",
+        "strict"
+      ]
+    }
+  }
+}

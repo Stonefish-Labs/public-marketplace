@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "mcp-myfitnesspal": {
+      "command": "uv",
+      "args": [
+        "run",
+        "server"
+      ],
+      "cwd": "${CLAUDE_PLUGIN_ROOT}/mcp-servers/mcp-myfitnesspal",
+      "env": {}
+    }
+  }
+}

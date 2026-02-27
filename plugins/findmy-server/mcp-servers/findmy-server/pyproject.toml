@@ -1,0 +1,21 @@
+[project]
+name = "findmy-server"
+version = "0.1.0"
+description = "Apple Find My MCP server for device tracking"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=3.0.0",
+    "pyicloud>=2.0.2",
+    "keyring>=25.6.0"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[project.scripts]
+server = "server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

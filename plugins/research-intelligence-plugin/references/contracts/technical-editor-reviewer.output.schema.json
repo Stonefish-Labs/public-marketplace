@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "technical-editor-reviewer output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "issues"
+  ],
+  "properties": {
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "quote",
+          "category",
+          "recommendation",
+          "revision"
+        ],
+        "properties": {
+          "quote": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "recommendation": {
+            "type": "string",
+            "enum": [
+              "REMOVE",
+              "REWORD",
+              "KEEP"
+            ]
+          },
+          "revision": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

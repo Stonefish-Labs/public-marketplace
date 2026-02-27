@@ -1,0 +1,16 @@
+{
+  "name": "anchor-year-method",
+  "version": "1.0.0",
+  "description": "Guide users through the Anchor Year Method to uncover rich autobiographical memories for legacy journals, memoirs, and personal history interviews.",
+  "author": "batteryshark",
+  "keywords": [
+    "memory",
+    "journaling",
+    "memoir",
+    "interviewing"
+  ],
+  "skills": [
+    "skills/anchor-year-method/SKILL.md"
+  ],
+  "agents": []
+}

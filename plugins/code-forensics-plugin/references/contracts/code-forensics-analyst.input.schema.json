@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "code-forensics-analyst input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "workspace_path",
+    "focus_areas",
+    "threat_model"
+  ],
+  "properties": {
+    "workspace_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "focus_areas": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "threat_model": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

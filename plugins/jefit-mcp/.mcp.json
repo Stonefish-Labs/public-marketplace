@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "jefit-mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "server"
+      ],
+      "cwd": "${CLAUDE_PLUGIN_ROOT}/mcp-servers/jefit-mcp",
+      "env": {}
+    }
+  }
+}

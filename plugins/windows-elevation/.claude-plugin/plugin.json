@@ -1,0 +1,19 @@
+{
+  "name": "windows-elevation",
+  "version": "1.0.0",
+  "description": "Run elevated Windows commands while preserving visible stdout/stderr using inline sudo or gsudo.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "windows",
+    "sudo",
+    "gsudo",
+    "elevation",
+    "automation"
+  ],
+  "skills": [
+    "SKILL.md"
+  ],
+  "agents": []
+}

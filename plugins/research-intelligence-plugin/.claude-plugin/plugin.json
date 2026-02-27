@@ -1,0 +1,24 @@
+{
+  "name": "research-intelligence-plugin",
+  "version": "1.0.0",
+  "description": "Research-to-decision workflow plugin combining deep research, strict technical editing, and executive summary synthesis with structured subagent contracts.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "research",
+    "analysis",
+    "editorial-review",
+    "executive-summary",
+    "developer-tools"
+  ],
+  "skills": [
+    "skills/executive-summary/SKILL.md",
+    "skills/research-operations/SKILL.md",
+    "skills/technical-editor/SKILL.md"
+  ],
+  "agents": [
+    "agents/deep-research-analyst.md",
+    "agents/technical-editor-reviewer.md"
+  ]
+}

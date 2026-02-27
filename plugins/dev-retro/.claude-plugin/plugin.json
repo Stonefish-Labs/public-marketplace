@@ -1,0 +1,19 @@
+{
+  "name": "dev-retro",
+  "version": "1.0.0",
+  "description": "Extract a structured retrospective from chat history, session history, planning files, or selected files and folders.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "retrospective",
+    "postmortem",
+    "developer-workflow",
+    "session-analysis",
+    "productivity"
+  ],
+  "skills": [
+    "skills/dev-retro/SKILL.md"
+  ],
+  "agents": []
+}

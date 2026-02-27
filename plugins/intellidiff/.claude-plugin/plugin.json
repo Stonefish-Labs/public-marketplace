@@ -1,0 +1,19 @@
+{
+  "name": "intellidiff",
+  "version": "1.0.0",
+  "description": "Compare files and folders, detect duplicates, find differences, and read specific line ranges with normalization options.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "diff",
+    "compare",
+    "files",
+    "folders",
+    "developer-tools"
+  ],
+  "skills": [
+    "skills/intellidiff/SKILL.md"
+  ],
+  "agents": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "aidoomd",
+  "version": "1.0.0",
+  "description": "Doom map design and QA plugin with skills for consultation, IR generation, and validation plus an independent reviewer agent.",
+  "author": {
+    "name": "aidoomd contributors"
+  },
+  "keywords": [
+    "doom",
+    "map-generation",
+    "game-design",
+    "qa",
+    "developer-tools"
+  ],
+  "skills": [
+    "skills/map-design-consultation/SKILL.md",
+    "skills/map-generation/SKILL.md",
+    "skills/map-qa-validation/SKILL.md"
+  ],
+  "agents": [
+    "agents/map-qa-reviewer.md"
+  ]
+}

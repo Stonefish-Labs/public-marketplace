@@ -1,0 +1,19 @@
+{
+  "name": "google-maps-server",
+  "version": "0.1.0",
+  "description": "Google Maps MCP server for geocoding, places, directions, and distance calculations.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "google-maps",
+    "geocoding",
+    "places",
+    "directions",
+    "mcp",
+    "automation"
+  ],
+  "mcpServers": "./.mcp.json",
+  "skills": [],
+  "agents": []
+}

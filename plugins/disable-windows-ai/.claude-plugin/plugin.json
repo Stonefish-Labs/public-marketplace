@@ -1,0 +1,19 @@
+{
+  "name": "disable-windows-ai",
+  "version": "1.0.0",
+  "description": "Disable Windows 11 AI features including Copilot, Recall, Edge AI, and app-level AI integrations.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "windows",
+    "copilot",
+    "recall",
+    "privacy",
+    "automation"
+  ],
+  "skills": [
+    "skills/SKILL.md"
+  ],
+  "agents": []
+}

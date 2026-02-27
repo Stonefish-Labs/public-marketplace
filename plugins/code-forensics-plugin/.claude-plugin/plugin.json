@@ -1,0 +1,21 @@
+{
+  "name": "code-forensics-plugin",
+  "version": "1.0.0",
+  "description": "Security-focused codebase reconnaissance plugin with structured OWASP-mapped findings and a dedicated forensic analysis subagent.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "security",
+    "forensics",
+    "owasp",
+    "code-review",
+    "developer-tools"
+  ],
+  "skills": [
+    "skills/code-forensics/SKILL.md"
+  ],
+  "agents": [
+    "agents/code-forensics-analyst.md"
+  ]
+}

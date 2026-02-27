@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "google-maps-server": {
+      "command": "uv",
+      "args": [
+        "run",
+        "server"
+      ],
+      "cwd": "${CLAUDE_PLUGIN_ROOT}/mcp-servers/google-maps-server",
+      "env": {}
+    }
+  }
+}

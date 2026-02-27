@@ -1,0 +1,24 @@
+{
+  "name": "tetris-guideline-compliance",
+  "version": "1.0.0",
+  "description": "Single-player Tetris 2009 guideline skill pack with deterministic compliance reviewer and scoring rubric.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "tetris",
+    "game-design",
+    "compliance",
+    "reviewer",
+    "ios",
+    "unity"
+  ],
+  "skills": [
+    "skills/tetris-core-spec/SKILL.md",
+    "skills/tetris-ui-effects-spec/SKILL.md",
+    "skills/tetris-reviewer/SKILL.md"
+  ],
+  "agents": [
+    "agents/tetris-compliance-reviewer.md"
+  ]
+}

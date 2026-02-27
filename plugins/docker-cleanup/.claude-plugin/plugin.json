@@ -1,0 +1,19 @@
+{
+  "name": "docker-cleanup",
+  "version": "1.0.0",
+  "description": "Cross-platform Docker cleanup workflow with safe prune steps and Windows WSL2 VHDX compaction guidance.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "docker",
+    "cleanup",
+    "disk-space",
+    "windows",
+    "wsl2"
+  ],
+  "skills": [
+    "skills/docker-cleanup/SKILL.md"
+  ],
+  "agents": []
+}

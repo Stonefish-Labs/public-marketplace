@@ -1,0 +1,16 @@
+{
+  "name": "discord-notifier",
+  "version": "1.0.0",
+  "description": "Send Discord channel alerts via webhook with profile-based secret resolution and validation.",
+  "keywords": [
+    "discord",
+    "notifications",
+    "webhook",
+    "alerts",
+    "automation"
+  ],
+  "skills": [
+    "skills/discord-notifier/SKILL.md"
+  ],
+  "agents": []
+}

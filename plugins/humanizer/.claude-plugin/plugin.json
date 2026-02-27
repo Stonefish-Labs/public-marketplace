@@ -1,0 +1,19 @@
+{
+  "name": "humanizer",
+  "version": "2.2.0",
+  "description": "Remove signs of AI-generated writing from text to produce more natural, human-written prose.",
+  "author": {
+    "name": "biostartechnology"
+  },
+  "keywords": [
+    "writing",
+    "editing",
+    "style",
+    "humanization",
+    "ai-detection"
+  ],
+  "skills": [
+    "skills/humanizer/SKILL.md"
+  ],
+  "agents": []
+}

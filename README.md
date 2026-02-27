@@ -20,10 +20,9 @@ Public Marketplace for Stonefish Labs plugins.
 |---|---|---|
 | `mp-dev` | Plugin development tools: scaffold skills, agents, hooks, MCP servers, commands, and plugins | developer-tools |
 | `mp-admin` | Marketplace management skills: init, add, remove, sync, publish, and version bump | developer-tools |
-| `mp-fastmcp-core` | FastMCP core development tools | developer-tools |
-| `mp-fastmcp-advanced` | FastMCP advanced development tools | developer-tools |
-| `mp-fastmcp-testing` | FastMCP testing tools | developer-tools |
+| `mp-fastmcp-dev` | FastMCP development toolkit with server creation, upgrades, safety, and testing skills | developer-tools |
 | `project-management` | Project management skills | productivity |
+| `local-llm-prompt-evaluator` | Evaluate prompts and agent workflows for local LLM quality with scored findings and rewrite guidance | developer-tools |
 
 ## Beta Channel
 

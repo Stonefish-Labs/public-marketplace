@@ -1,0 +1,27 @@
+{
+  "name": "fastmcp-dev",
+  "version": "1.0.0",
+  "description": "FastMCP development toolkit with end-to-end skills for server creation, upgrades, architecture, safety, and testing.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "fastmcp",
+    "mcp",
+    "developer-tools",
+    "python",
+    "testing"
+  ],
+  "skills": [
+    "skills/mcp-elicitations/SKILL.md",
+    "skills/mcp-hitl-checkpoints/SKILL.md",
+    "skills/mcp-hybrid-architecture/SKILL.md",
+    "skills/mcp-response-format/SKILL.md",
+    "skills/mcp-secrets/SKILL.md",
+    "skills/mcp-server-create/SKILL.md",
+    "skills/mcp-server-upgrade/SKILL.md",
+    "skills/mcp-startup-patterns/SKILL.md",
+    "skills/mcp-testing/SKILL.md",
+    "skills/mcp-tool-design/SKILL.md"
+  ]
+}

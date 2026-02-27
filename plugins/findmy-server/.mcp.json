@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "findmy-server": {
+      "command": "uv",
+      "args": [
+        "run",
+        "server"
+      ],
+      "cwd": "${CLAUDE_PLUGIN_ROOT}/mcp-servers/findmy-server",
+      "env": {}
+    }
+  }
+}

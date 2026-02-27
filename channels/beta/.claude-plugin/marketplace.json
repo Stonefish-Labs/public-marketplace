@@ -8,5 +8,389 @@
     "version": "1.0.0",
     "pluginRoot": "../../plugins"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "mp-fastmcp-dev",
+      "source": "../../plugins/mp-fastmcp-dev",
+      "description": "FastMCP development toolkit with end-to-end skills for server creation, upgrades, architecture, safety, and testing.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "fastmcp",
+        "mcp",
+        "developer-tools",
+        "python",
+        "testing"
+      ],
+      "category": "developer-tools"
+    },
+    {
+      "name": "image-crop-rotate",
+      "source": "../../plugins/image-crop-rotate",
+      "description": "Image processing plugin for cropping to center and rotating 90\u00b0 clockwise.",
+      "version": "1.0.0",
+      "keywords": [
+        "image-processing",
+        "automation",
+        "utilities"
+      ],
+      "category": "automation"
+    },
+    {
+      "name": "fb-reel-downloader",
+      "source": "../../plugins/fb-reel-downloader",
+      "description": "Download public Facebook reels/videos to local MP4 files.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "facebook",
+        "reels",
+        "video-download",
+        "automation",
+        "media"
+      ],
+      "category": "automation"
+    },
+    {
+      "name": "findmy-server",
+      "source": "../../plugins/findmy-server",
+      "description": "Apple Find My MCP server for device tracking and account-safe cache management.",
+      "version": "0.1.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "apple",
+        "find-my",
+        "device-tracking",
+        "mcp",
+        "automation"
+      ],
+      "category": "automation"
+    },
+    {
+      "name": "google-maps-server",
+      "source": "../../plugins/google-maps-server",
+      "description": "Google Maps MCP server for geocoding, places, directions, and distance calculations.",
+      "version": "0.1.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "google-maps",
+        "geocoding",
+        "places",
+        "directions",
+        "mcp",
+        "automation"
+      ],
+      "category": "automation"
+    },
+    {
+      "name": "jefit-mcp",
+      "source": "../../plugins/jefit-mcp",
+      "description": "MCP server plugin for JEFit workout history and per-session exercise analysis.",
+      "version": "0.1.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "jefit",
+        "fitness",
+        "workouts",
+        "mcp",
+        "automation"
+      ],
+      "category": "automation"
+    },
+    {
+      "name": "discord-notifier",
+      "source": "../../plugins/discord-notifier",
+      "description": "Send Discord channel alerts via webhook with profile-based secret resolution and validation.",
+      "version": "1.0.0",
+      "keywords": [
+        "discord",
+        "notifications",
+        "webhook",
+        "alerts",
+        "automation"
+      ],
+      "category": "automation"
+    },
+    {
+      "name": "waffle-house-callout",
+      "source": "../../plugins/waffle-house-callout",
+      "description": "Turn any input into a funny Waffle House-style Pull Drop Mark kitchen callout.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "humor",
+        "waffle-house",
+        "prompt-formatting",
+        "creative-writing"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "intellidiff",
+      "source": "../../plugins/intellidiff",
+      "description": "Compare files and folders, detect duplicates, find differences, and read specific line ranges with normalization options.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "diff",
+        "compare",
+        "files",
+        "folders",
+        "developer-tools"
+      ],
+      "category": "developer-tools"
+    },
+    {
+      "name": "disable-windows-ai",
+      "source": "../../plugins/disable-windows-ai",
+      "description": "Disable Windows 11 AI features including Copilot, Recall, Edge AI, and app-level AI integrations.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "windows",
+        "copilot",
+        "recall",
+        "privacy",
+        "automation"
+      ],
+      "category": "automation"
+    },
+    {
+      "name": "docker-cleanup",
+      "source": "../../plugins/docker-cleanup",
+      "description": "Cross-platform Docker cleanup workflow with safe prune steps and Windows WSL2 VHDX compaction guidance.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "docker",
+        "cleanup",
+        "disk-space",
+        "windows",
+        "wsl2"
+      ],
+      "category": "automation"
+    },
+    {
+      "name": "system-elevation",
+      "source": "../../plugins/system-elevation",
+      "description": "Run Windows commands as NT AUTHORITY\\SYSTEM using Task Scheduler with file-based output capture.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "windows",
+        "system",
+        "elevation",
+        "task-scheduler",
+        "administration"
+      ],
+      "category": "automation"
+    },
+    {
+      "name": "windows-elevation",
+      "source": "../../plugins/windows-elevation",
+      "description": "Run elevated Windows commands while preserving visible stdout/stderr using inline sudo or gsudo.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "windows",
+        "sudo",
+        "gsudo",
+        "elevation",
+        "automation"
+      ],
+      "category": "automation"
+    },
+    {
+      "name": "local-llm-prompt-evaluator",
+      "source": "../../plugins/local-llm-prompt-evaluator",
+      "description": "Evaluate prompts, system prompts, and agent workflows for local LLM reliability with scored findings and concrete rewrites.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "local-llm",
+        "prompt-engineering",
+        "evaluation",
+        "ollama",
+        "lm-studio"
+      ],
+      "category": "developer-tools"
+    },
+    {
+      "name": "dev-retro",
+      "source": "../../plugins/dev-retro",
+      "description": "Extract a structured retrospective from chat history, session history, planning files, or selected files and folders.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "retrospective",
+        "postmortem",
+        "developer-workflow",
+        "session-analysis",
+        "productivity"
+      ],
+      "category": "developer-tools"
+    },
+    {
+      "name": "anchor-year-method",
+      "source": "../../plugins/anchor-year-method",
+      "description": "Guide users through the Anchor Year Method to uncover rich autobiographical memories for legacy journals, memoirs, and personal history interviews.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "memory",
+        "journaling",
+        "memoir",
+        "interviewing"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "tetris-guideline-compliance",
+      "source": "../../plugins/tetris-guideline-compliance",
+      "description": "Single-player Tetris 2009 guideline skill pack with deterministic compliance reviewer and scoring rubric.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "tetris",
+        "game-design",
+        "compliance",
+        "reviewer",
+        "ios",
+        "unity"
+      ],
+      "category": "developer-tools"
+    },
+    {
+      "name": "aidoomd",
+      "source": "../../plugins/aidoomd",
+      "description": "Doom map design and QA plugin with skills for consultation, IR generation, and validation plus an independent reviewer agent.",
+      "version": "1.0.0",
+      "author": {
+        "name": "aidoomd contributors"
+      },
+      "keywords": [
+        "doom",
+        "map-generation",
+        "game-design",
+        "qa",
+        "developer-tools"
+      ],
+      "category": "developer-tools"
+    },
+    {
+      "name": "tts-ipa-pronunciation",
+      "source": "../../plugins/tts-ipa-pronunciation",
+      "description": "Review TTS scripts and replace pronunciation-sensitive words with IPA where needed to improve voice-model pronunciation while preserving script meaning and flow.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "tts",
+        "ipa",
+        "pronunciation",
+        "speech",
+        "voice-model"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "research-intelligence-plugin",
+      "source": "../../plugins/research-intelligence-plugin",
+      "description": "Research-to-decision workflow plugin combining deep research, strict technical editing, and executive summary synthesis with structured subagent contracts.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "research",
+        "analysis",
+        "editorial-review",
+        "executive-summary",
+        "developer-tools"
+      ],
+      "category": "developer-tools"
+    },
+    {
+      "name": "code-forensics-plugin",
+      "source": "../../plugins/code-forensics-plugin",
+      "description": "Security-focused codebase reconnaissance plugin with structured OWASP-mapped findings and a dedicated forensic analysis subagent.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "security",
+        "forensics",
+        "owasp",
+        "code-review",
+        "developer-tools"
+      ],
+      "category": "developer-tools"
+    },
+    {
+      "name": "people-coaching-plugin",
+      "source": "../../plugins/people-coaching-plugin",
+      "description": "Structured coaching and reflective prompt plugin covering manager coaching, challenge prompts, talent discovery, and guardrailed introspection.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "coaching",
+        "communication",
+        "reflection",
+        "leadership",
+        "productivity"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "mcp-myfitnesspal",
+      "source": "../../plugins/mcp-myfitnesspal",
+      "description": "MCP server plugin for MyFitnessPal nutrition, meals, exercise, and hydration summaries.",
+      "version": "0.1.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "myfitnesspal",
+        "fitness",
+        "nutrition",
+        "mcp",
+        "automation"
+      ],
+      "category": "automation"
+    }
+  ]
 }

@@ -1,0 +1,19 @@
+{
+  "name": "people-coaching-plugin",
+  "version": "1.0.0",
+  "description": "Structured coaching and reflective prompt plugin covering manager coaching, challenge prompts, talent discovery, and guardrailed introspection.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "coaching",
+    "communication",
+    "reflection",
+    "leadership",
+    "productivity"
+  ],
+  "skills": [
+    "skills/people-coaching/SKILL.md"
+  ],
+  "agents": []
+}

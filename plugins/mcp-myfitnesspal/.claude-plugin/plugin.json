@@ -1,0 +1,18 @@
+{
+  "name": "mcp-myfitnesspal",
+  "version": "0.1.0",
+  "description": "MCP server plugin for MyFitnessPal nutrition, meals, exercise, and hydration summaries.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "myfitnesspal",
+    "fitness",
+    "nutrition",
+    "mcp",
+    "automation"
+  ],
+  "mcpServers": "./.mcp.json",
+  "skills": [],
+  "agents": []
+}

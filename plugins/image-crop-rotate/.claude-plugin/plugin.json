@@ -1,0 +1,8 @@
+{
+  "name": "image-crop-rotate",
+  "version": "1.0.0",
+  "description": "Image processing plugin for cropping to center and rotating 90° clockwise.",
+  "components": {
+    "skills": ["SKILL.md"]
+  }
+}

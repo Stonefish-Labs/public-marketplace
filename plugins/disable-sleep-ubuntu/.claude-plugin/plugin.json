@@ -1,0 +1,9 @@
+{
+  "name": "disable-sleep-ubuntu",
+  "version": "1.0.0",
+  "description": "Bundled plugin: disable-sleep-ubuntu",
+  "skills": [
+    "SKILL.md"
+  ],
+  "agents": []
+}
