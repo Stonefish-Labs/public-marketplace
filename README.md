@@ -27,6 +27,12 @@ Public Marketplace for Stonefish Labs plugins.
 | `dev-snippets-python-utilities` | Python utility snippets for keyring secrets, HTML conversion, and sync/async interoperability | developer-tools |
 | `dev-snippets-lowlevel-security` | Defensive low-level forensics snippets with deny-by-default safety and review agents | security |
 | `sandals-mcp` | Sandals and Beaches MCP server for resort discovery, availability checks, and optional price watch alerts | automation |
+| `mcp-server-apple-reminders` | FastMCP 3.x server for Apple Reminders integration on macOS | macos-productivity |
+| `macos-battery-charging-check` | Check charging state, detected adapter wattage, and live power events on macOS | macos-management |
+| `macos-remove-quarantine` | Inspect and remove macOS quarantine attributes from trusted files and directories | macos-management |
+| `macos-windows-cross-compile` | Set up MinGW-w64 on macOS to cross-compile C/C++ binaries for Windows | macos-management |
+| `macos-wine-setup` | Install and verify Wine, XQuartz, and Winetricks on macOS | macos-management |
+| `sublime-home-end-keys-macos` | Fix Home/End key behavior in Sublime Text on macOS for line-level navigation | macos-management |
 
 ## Beta Channel
 

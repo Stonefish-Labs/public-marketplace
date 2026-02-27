@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "mac-messages-mcp": {
+      "command": "python3",
+      "args": [
+        "-m",
+        "mac_messages_mcp.server"
+      ],
+      "cwd": "${CLAUDE_PLUGIN_ROOT}/mcp-servers/mac-messages-mcp",
+      "env": {}
+    }
+  }
+}

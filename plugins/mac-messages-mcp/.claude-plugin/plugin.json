@@ -1,0 +1,18 @@
+{
+  "name": "mac-messages-mcp",
+  "version": "0.8.0",
+  "description": "FastMCP 3.x bridge for interacting with the macOS Messages app with configurable confirmation policy.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "macos",
+    "messages",
+    "mcp",
+    "productivity",
+    "automation"
+  ],
+  "mcpServers": "./.mcp.json",
+  "skills": [],
+  "agents": []
+}

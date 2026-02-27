@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "mcp-sysinfo": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "${CLAUDE_PLUGIN_ROOT}/mcp-servers/mcp-sysinfo",
+        "python",
+        "main.py"
+      ]
+    }
+  }
+}

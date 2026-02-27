@@ -1,0 +1,19 @@
+{
+  "name": "process-observability",
+  "version": "1.0.0",
+  "description": "Runtime process diagnostics with privacy-minimized defaults and optional path-level forensics.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "macos",
+    "processes",
+    "cpu",
+    "memory",
+    "diagnostics"
+  ],
+  "skills": [
+    "skills/process-observability/SKILL.md"
+  ],
+  "agents": []
+}

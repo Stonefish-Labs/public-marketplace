@@ -1,0 +1,27 @@
+[project]
+name = "mac-messages-mcp"
+version = "0.8.0"
+description = "FastMCP 3.x bridge for interacting with macOS Messages app"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=3.0.0",
+    "thefuzz>=0.20.0",
+    "python-levenshtein>=0.23.0",
+    "tomli>=2.0.1; python_version < '3.11'",
+]
+
+[project.scripts]
+mac-messages-mcp = "mac_messages_mcp.server:run_server"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

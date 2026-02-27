@@ -1,0 +1,19 @@
+{
+  "name": "external-ip",
+  "version": "1.0.0",
+  "description": "Explicit outbound public-IP lookup skill with multi-provider fallback strategy.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "macos",
+    "network",
+    "external-ip",
+    "egress",
+    "diagnostics"
+  ],
+  "skills": [
+    "skills/external-ip/SKILL.md"
+  ],
+  "agents": []
+}

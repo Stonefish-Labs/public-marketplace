@@ -1,0 +1,21 @@
+[project]
+name = "mcp-sysinfo"
+version = "0.1.0"
+description = "Modular FastMCP server providing focused system diagnostic tools for efficient troubleshooting and environment analysis"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.12.2",
+    "psutil>=7.0.0",
+    "requests>=2.32.5",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[project.scripts]
+server = "src.sysinfo.server:run_server"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

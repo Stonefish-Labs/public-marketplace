@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mcp-server-apple-reminders": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "${CLAUDE_PLUGIN_ROOT}/mcp-servers/",
+        "run",
+        "mcp-server-apple-reminders"
+      ],
+      "env": {}
+    }
+  }
+}

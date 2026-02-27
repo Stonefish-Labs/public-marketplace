@@ -1,0 +1,19 @@
+{
+  "name": "system-summary",
+  "version": "1.0.0",
+  "description": "Baseline machine identity and hardware diagnostics for macOS, Linux, and Windows.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "macos",
+    "system",
+    "hardware",
+    "diagnostics",
+    "management"
+  ],
+  "skills": [
+    "skills/system-summary/SKILL.md"
+  ],
+  "agents": []
+}

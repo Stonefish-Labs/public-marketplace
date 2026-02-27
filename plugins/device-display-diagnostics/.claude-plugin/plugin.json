@@ -1,0 +1,19 @@
+{
+  "name": "device-display-diagnostics",
+  "version": "1.0.0",
+  "description": "Peripheral and monitor diagnostics covering USB, Bluetooth, and display state.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "macos",
+    "devices",
+    "display",
+    "usb",
+    "bluetooth"
+  ],
+  "skills": [
+    "skills/device-display-diagnostics/SKILL.md"
+  ],
+  "agents": []
+}

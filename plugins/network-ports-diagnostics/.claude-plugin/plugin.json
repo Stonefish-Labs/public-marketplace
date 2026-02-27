@@ -1,0 +1,19 @@
+{
+  "name": "network-ports-diagnostics",
+  "version": "1.0.0",
+  "description": "Local-only network and listening-port diagnostics without public-IP egress.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "macos",
+    "network",
+    "ports",
+    "connectivity",
+    "diagnostics"
+  ],
+  "skills": [
+    "skills/network-ports-diagnostics/SKILL.md"
+  ],
+  "agents": []
+}

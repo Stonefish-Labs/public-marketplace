@@ -1,0 +1,16 @@
+{
+  "name": "mcp-sysinfo",
+  "version": "0.1.0",
+  "description": "FastMCP system diagnostics server for macOS, Linux, and Windows with focused tools for summary, hardware, network, storage, processes, ports, and full reports.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "mcp",
+    "macos",
+    "system-info",
+    "diagnostics",
+    "fastmcp"
+  ],
+  "mcpServers": "./.mcp.json"
+}

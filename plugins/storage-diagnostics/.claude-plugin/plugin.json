@@ -1,0 +1,19 @@
+{
+  "name": "storage-diagnostics",
+  "version": "1.0.0",
+  "description": "Disk capacity, partition usage, and storage IO diagnostics for system health triage.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "macos",
+    "storage",
+    "disk",
+    "io",
+    "diagnostics"
+  ],
+  "skills": [
+    "skills/storage-diagnostics/SKILL.md"
+  ],
+  "agents": []
+}

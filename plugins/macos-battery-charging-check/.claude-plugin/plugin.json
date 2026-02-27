@@ -1,0 +1,9 @@
+{
+  "name": "macos-battery-charging-check",
+  "version": "1.0.0",
+  "description": "Bundled plugin: macos-battery-charging-check",
+  "skills": [
+    "SKILL.md"
+  ],
+  "agents": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "macos-remove-quarantine",
+  "version": "1.0.0",
+  "description": "Bundled plugin: macos-remove-quarantine",
+  "skills": [
+    "SKILL.md"
+  ],
+  "agents": []
+}

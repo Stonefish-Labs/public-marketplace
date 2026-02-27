@@ -533,7 +533,7 @@
       "name": "sandals-mcp",
       "source": "./plugins/sandals-mcp",
       "description": "MCP server plugin for Sandals and Beaches resort discovery, live availability, and optional price watch alerts.",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "author": {
         "name": "batteryshark"
       },
@@ -545,6 +545,261 @@
         "automation"
       ],
       "category": "automation"
+    },
+    {
+      "name": "mac-messages-mcp",
+      "source": "./plugins/mac-messages-mcp",
+      "description": "FastMCP 3.x server for macOS Messages search, contact lookup, and guarded message sending with profile-based confirmation policy.",
+      "version": "0.8.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "messages",
+        "mcp",
+        "productivity",
+        "imessage"
+      ],
+      "category": "macos-productivity"
+    },
+    {
+      "name": "mcp-server-apple-calendar",
+      "description": "FastMCP 3.x server for Apple Calendar integration on macOS.",
+      "version": "2.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "calendar",
+        "apple",
+        "mcp",
+        "productivity"
+      ],
+      "category": "macos-productivity",
+      "source": "./plugins/mcp-server-apple-calendar"
+    },
+    {
+      "name": "mcp-server-apple-reminders",
+      "description": "FastMCP 3.x server for Apple Reminders integration on macOS.",
+      "version": "2.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "reminders",
+        "apple",
+        "mcp",
+        "productivity"
+      ],
+      "category": "macos-productivity",
+      "source": "./plugins/mcp-server-apple-reminders"
+    },
+    {
+      "name": "system-summary",
+      "description": "Baseline machine identity and hardware diagnostics for macOS, Linux, and Windows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "system",
+        "hardware",
+        "diagnostics",
+        "management"
+      ],
+      "category": "macos-management",
+      "source": "./plugins/system-summary"
+    },
+    {
+      "name": "process-observability",
+      "description": "Runtime process diagnostics with privacy-minimized defaults and optional path-level forensics.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "processes",
+        "cpu",
+        "memory",
+        "diagnostics"
+      ],
+      "category": "macos-management",
+      "source": "./plugins/process-observability"
+    },
+    {
+      "name": "storage-diagnostics",
+      "description": "Disk capacity, partition usage, and storage IO diagnostics for system health triage.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "storage",
+        "disk",
+        "io",
+        "diagnostics"
+      ],
+      "category": "macos-management",
+      "source": "./plugins/storage-diagnostics"
+    },
+    {
+      "name": "device-display-diagnostics",
+      "description": "Peripheral and monitor diagnostics covering USB, Bluetooth, and display state.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "devices",
+        "display",
+        "usb",
+        "bluetooth"
+      ],
+      "category": "macos-management",
+      "source": "./plugins/device-display-diagnostics"
+    },
+    {
+      "name": "network-ports-diagnostics",
+      "description": "Local-only network and listening-port diagnostics without public-IP egress.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "network",
+        "ports",
+        "connectivity",
+        "diagnostics"
+      ],
+      "category": "macos-management",
+      "source": "./plugins/network-ports-diagnostics"
+    },
+    {
+      "name": "external-ip",
+      "description": "Explicit outbound public-IP lookup skill with multi-provider fallback strategy.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "network",
+        "external-ip",
+        "egress",
+        "diagnostics"
+      ],
+      "category": "macos-management",
+      "source": "./plugins/external-ip"
+    },
+    {
+      "name": "mcp-sysinfo",
+      "description": "FastMCP system diagnostics server for macOS, Linux, and Windows with focused tools for summary, hardware, network, storage, processes, ports, and full reports.",
+      "version": "0.1.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "mcp",
+        "macos",
+        "system-info",
+        "diagnostics",
+        "fastmcp"
+      ],
+      "category": "macos-management",
+      "source": "./plugins/mcp-sysinfo"
+    },
+    {
+      "name": "macos-battery-charging-check",
+      "description": "Check charging state, detected adapter wattage, and live power events on macOS.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "battery",
+        "charging",
+        "power",
+        "diagnostics"
+      ],
+      "category": "macos-management",
+      "source": "./plugins/macos-battery-charging-check"
+    },
+    {
+      "name": "macos-remove-quarantine",
+      "description": "Inspect and remove macOS quarantine attributes from trusted files and directories.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "quarantine",
+        "gatekeeper",
+        "xattr",
+        "security"
+      ],
+      "category": "macos-management",
+      "source": "./plugins/macos-remove-quarantine"
+    },
+    {
+      "name": "macos-windows-cross-compile",
+      "description": "Set up MinGW-w64 on macOS to cross-compile C/C++ binaries for Windows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "windows",
+        "cross-compile",
+        "mingw-w64",
+        "developer-tools"
+      ],
+      "category": "macos-management",
+      "source": "./plugins/macos-windows-cross-compile"
+    },
+    {
+      "name": "macos-wine-setup",
+      "description": "Install and verify Wine, XQuartz, and Winetricks on macOS.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "wine",
+        "xquartz",
+        "winetricks",
+        "compatibility"
+      ],
+      "category": "macos-management",
+      "source": "./plugins/macos-wine-setup"
+    },
+    {
+      "name": "sublime-home-end-keys-macos",
+      "description": "Fix Home/End key behavior in Sublime Text on macOS for line-level navigation.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "macos",
+        "sublime-text",
+        "keybindings",
+        "home-end",
+        "productivity"
+      ],
+      "category": "macos-management",
+      "source": "./plugins/sublime-home-end-keys-macos"
     }
   ]
 }
