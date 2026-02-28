@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "agentic-dev-fastmcp-dev",
-      "source": "./plugins/fastmcp-dev",
+      "source": "./plugins/agentic-dev-fastmcp-dev",
       "description": "FastMCP development toolkit with end-to-end skills for server creation, upgrades, architecture, safety, and testing.",
       "version": "1.0.0",
       "author": {
@@ -28,7 +28,7 @@
     },
     {
       "name": "agentic-dev-lexy",
-      "source": "./plugins/lexy",
+      "source": "./plugins/agentic-dev-lexy",
       "description": "General-purpose local knowledge base search plugin with exact, BM25, and fuzzy retrieval pipelines.",
       "version": "1.0.0",
       "author": {
@@ -45,7 +45,7 @@
     },
     {
       "name": "agentic-dev-local-llm-prompt-evaluator",
-      "source": "./plugins/local-llm-prompt-evaluator",
+      "source": "./plugins/agentic-dev-local-llm-prompt-evaluator",
       "description": "Evaluate prompts, system prompts, and agent workflows for local LLM reliability with scored findings and concrete rewrites.",
       "version": "1.0.0",
       "author": {
@@ -62,7 +62,7 @@
     },
     {
       "name": "agentic-dev-mp-admin",
-      "source": "./plugins/mp-admin",
+      "source": "./plugins/agentic-dev-mp-admin",
       "description": "Marketplace management skills: init, add, remove, sync, and publish for Claude Code plugin marketplaces.",
       "version": "1.0.0",
       "author": {
@@ -78,7 +78,7 @@
     },
     {
       "name": "agentic-dev-mp-dev",
-      "source": "./plugins/mp-dev",
+      "source": "./plugins/agentic-dev-mp-dev",
       "description": "Plugin development tools: scaffold skills, agents, hooks, MCP servers, commands, and plugins; validate and refine components; publish to GitHub.",
       "version": "1.0.0",
       "author": {
@@ -95,7 +95,7 @@
     },
     {
       "name": "agentic-dev-tts-ipa-pronunciation",
-      "source": "./plugins/tts-ipa-pronunciation",
+      "source": "./plugins/agentic-dev-tts-ipa-pronunciation",
       "description": "Review TTS scripts and replace pronunciation-sensitive words with IPA where needed to improve voice-model pronunciation while preserving script meaning and flow.",
       "version": "1.0.0",
       "author": {
@@ -125,7 +125,7 @@
         "productivity"
       ],
       "category": "cloud",
-      "source": "./plugins/mcp-server-apple-calendar"
+      "source": "./plugins/cloud-apple-calendar"
     },
     {
       "name": "cloud-apple-reminders",
@@ -142,11 +142,11 @@
         "productivity"
       ],
       "category": "cloud",
-      "source": "./plugins/mcp-server-apple-reminders"
+      "source": "./plugins/cloud-apple-reminders"
     },
     {
       "name": "cloud-findmy",
-      "source": "./plugins/findmy-server",
+      "source": "./plugins/cloud-findmy",
       "description": "Apple Find My MCP server for device tracking and account-safe cache management.",
       "version": "0.1.0",
       "author": {
@@ -163,7 +163,7 @@
     },
     {
       "name": "cloud-google-maps",
-      "source": "./plugins/google-maps-server",
+      "source": "./plugins/cloud-google-maps",
       "description": "Google Maps MCP server for geocoding, places, directions, and distance calculations.",
       "version": "0.1.0",
       "author": {
@@ -181,7 +181,7 @@
     },
     {
       "name": "cloud-mac-messages",
-      "source": "./plugins/mac-messages-mcp",
+      "source": "./plugins/cloud-mac-messages",
       "description": "FastMCP 3.x server for macOS Messages search, contact lookup, and guarded message sending with profile-based confirmation policy.",
       "version": "0.8.0",
       "author": {
@@ -198,7 +198,7 @@
     },
     {
       "name": "cloud-sandals",
-      "source": "./plugins/sandals-mcp",
+      "source": "./plugins/cloud-sandals",
       "description": "MCP server plugin for Sandals and Beaches resort discovery, live availability, and optional price watch alerts.",
       "version": "2.0.0",
       "author": {
@@ -215,7 +215,7 @@
     },
     {
       "name": "dev-github-publish",
-      "source": "./plugins/github-publish",
+      "source": "./plugins/dev-github-publish",
       "description": "Publish projects to GitHub cleanly with repository setup, .gitignore strategy, README baselines, topics, and push workflows.",
       "version": "1.0.0",
       "author": {
@@ -232,7 +232,7 @@
     },
     {
       "name": "dev-intellidiff",
-      "source": "./plugins/intellidiff",
+      "source": "./plugins/dev-intellidiff",
       "description": "Compare files and folders, detect duplicates, find differences, and read specific line ranges with normalization options.",
       "version": "1.0.0",
       "author": {
@@ -261,7 +261,7 @@
         "python"
       ],
       "category": "dev",
-      "source": "./plugins/project-management"
+      "source": "./plugins/dev-project-management"
     },
     {
       "name": "dev-retro",
@@ -299,7 +299,7 @@
     },
     {
       "name": "legacy-journal-anchor-year-method",
-      "source": "./plugins/anchor-year-method",
+      "source": "./plugins/legacy-journal-anchor-year-method",
       "description": "Guide users through the Anchor Year Method to uncover rich autobiographical memories for legacy journals, memoirs, and personal history interviews.",
       "version": "1.0.0",
       "author": {
@@ -315,7 +315,7 @@
     },
     {
       "name": "lifestyle-jefit",
-      "source": "./plugins/jefit-mcp",
+      "source": "./plugins/lifestyle-jefit",
       "description": "MCP server plugin for JEFit workout history and per-session exercise analysis.",
       "version": "0.1.0",
       "author": {
@@ -332,7 +332,7 @@
     },
     {
       "name": "lifestyle-myfitnesspal",
-      "source": "./plugins/mcp-myfitnesspal",
+      "source": "./plugins/lifestyle-myfitnesspal",
       "description": "MCP server plugin for MyFitnessPal nutrition, meals, exercise, and hydration summaries.",
       "version": "0.1.0",
       "author": {
@@ -349,7 +349,7 @@
     },
     {
       "name": "lifestyle-people-coaching",
-      "source": "./plugins/people-coaching-plugin",
+      "source": "./plugins/lifestyle-people-coaching",
       "description": "Structured coaching and reflective prompt plugin covering manager coaching, challenge prompts, talent discovery, and guardrailed introspection.",
       "version": "1.0.0",
       "author": {
@@ -366,7 +366,7 @@
     },
     {
       "name": "media-fb-reel-downloader",
-      "source": "./plugins/fb-reel-downloader",
+      "source": "./plugins/media-fb-reel-downloader",
       "description": "Download public Facebook reels/videos to local MP4 files.",
       "version": "1.0.0",
       "author": {
@@ -383,8 +383,8 @@
     },
     {
       "name": "media-image-crop-rotate",
-      "source": "./plugins/image-crop-rotate",
-      "description": "Image processing plugin for cropping to center and rotating 90\u00b0 clockwise.",
+      "source": "./plugins/media-image-crop-rotate",
+      "description": "Image processing plugin for cropping to center and rotating 90° clockwise.",
       "version": "1.0.0",
       "author": {
         "name": "batteryshark"
@@ -398,7 +398,7 @@
     },
     {
       "name": "meme-aidoomd",
-      "source": "./plugins/aidoomd",
+      "source": "./plugins/meme-aidoomd",
       "description": "Doom map design and QA plugin with skills for consultation, IR generation, and validation plus an independent reviewer agent.",
       "version": "1.0.0",
       "author": {
@@ -415,7 +415,7 @@
     },
     {
       "name": "meme-tetris-guideline-compliance",
-      "source": "./plugins/tetris-guideline-compliance",
+      "source": "./plugins/meme-tetris-guideline-compliance",
       "description": "Single-player Tetris 2009 guideline skill pack with deterministic compliance reviewer and scoring rubric.",
       "version": "1.0.0",
       "author": {
@@ -433,7 +433,7 @@
     },
     {
       "name": "meme-waffle-house-callout",
-      "source": "./plugins/waffle-house-callout",
+      "source": "./plugins/meme-waffle-house-callout",
       "description": "Turn any input into a funny Waffle House-style Pull Drop Mark kitchen callout.",
       "version": "1.0.0",
       "author": {
@@ -449,7 +449,7 @@
     },
     {
       "name": "prosvc-humanizer",
-      "source": "./plugins/humanizer",
+      "source": "./plugins/prosvc-humanizer",
       "description": "Remove signs of AI-generated writing from text to produce more natural, human-written prose.",
       "version": "2.2.0",
       "author": {
@@ -466,7 +466,7 @@
     },
     {
       "name": "prosvc-research-intelligence",
-      "source": "./plugins/research-intelligence-plugin",
+      "source": "./plugins/prosvc-research-intelligence",
       "description": "Research-to-decision workflow plugin combining deep research, strict technical editing, and executive summary synthesis with structured subagent contracts.",
       "version": "1.0.0",
       "author": {
@@ -483,7 +483,7 @@
     },
     {
       "name": "sec-code-forensics",
-      "source": "./plugins/code-forensics-plugin",
+      "source": "./plugins/sec-code-forensics",
       "description": "Security-focused codebase reconnaissance plugin with structured OWASP-mapped findings and a dedicated forensic analysis subagent.",
       "version": "1.0.0",
       "author": {
@@ -500,7 +500,7 @@
     },
     {
       "name": "sec-dev-snippets-lowlevel-security",
-      "source": "./plugins/dev-snippets-lowlevel-security",
+      "source": "./plugins/sec-dev-snippets-lowlevel-security",
       "description": "Defensive low-level security and forensics snippets with deny-by-default guardrails, routing, and safety review agents.",
       "version": "1.0.0",
       "author": {
@@ -517,7 +517,7 @@
     },
     {
       "name": "sys-linux-dev-snippets-linux-bash",
-      "source": "./plugins/dev-snippets-linux-bash",
+      "source": "./plugins/sys-linux-dev-snippets-linux-bash",
       "description": "Linux and Bash snippet workflows for resilient downloads and ELF dependency packaging with verification and rollback guidance.",
       "version": "1.0.0",
       "author": {
@@ -534,7 +534,7 @@
     },
     {
       "name": "sys-linux-disable-sleep-ubuntu",
-      "source": "./plugins/disable-sleep-ubuntu",
+      "source": "./plugins/sys-linux-disable-sleep-ubuntu",
       "description": "Disable or enable sleep, suspend, hibernate, and hybrid-sleep on Ubuntu systems using systemctl.",
       "version": "1.0.0",
       "author": {
@@ -563,7 +563,7 @@
         "diagnostics"
       ],
       "category": "system-management-macos",
-      "source": "./plugins/macos-battery-charging-check"
+      "source": "./plugins/sys-macos-battery-charging-check"
     },
     {
       "name": "sys-macos-demacify",
@@ -580,7 +580,7 @@
         "file-management"
       ],
       "category": "system-management-macos",
-      "source": "./plugins/demacify"
+      "source": "./plugins/sys-macos-demacify"
     },
     {
       "name": "sys-macos-device-display-diagnostics",
@@ -597,7 +597,7 @@
         "bluetooth"
       ],
       "category": "system-management-macos",
-      "source": "./plugins/device-display-diagnostics"
+      "source": "./plugins/sys-macos-device-display-diagnostics"
     },
     {
       "name": "sys-macos-external-ip",
@@ -614,7 +614,7 @@
         "diagnostics"
       ],
       "category": "system-management-macos",
-      "source": "./plugins/external-ip"
+      "source": "./plugins/sys-macos-external-ip"
     },
     {
       "name": "sys-macos-network-ports-diagnostics",
@@ -631,7 +631,7 @@
         "diagnostics"
       ],
       "category": "system-management-macos",
-      "source": "./plugins/network-ports-diagnostics"
+      "source": "./plugins/sys-macos-network-ports-diagnostics"
     },
     {
       "name": "sys-macos-process-observability",
@@ -648,7 +648,7 @@
         "diagnostics"
       ],
       "category": "system-management-macos",
-      "source": "./plugins/process-observability"
+      "source": "./plugins/sys-macos-process-observability"
     },
     {
       "name": "sys-macos-remove-quarantine",
@@ -665,7 +665,7 @@
         "security"
       ],
       "category": "system-management-macos",
-      "source": "./plugins/macos-remove-quarantine"
+      "source": "./plugins/sys-macos-remove-quarantine"
     },
     {
       "name": "sys-macos-screenshot",
@@ -682,7 +682,7 @@
         "fastmcp"
       ],
       "category": "system-management-macos",
-      "source": "./plugins/mcp-screenshot"
+      "source": "./plugins/sys-macos-screenshot"
     },
     {
       "name": "sys-macos-storage-diagnostics",
@@ -699,7 +699,7 @@
         "diagnostics"
       ],
       "category": "system-management-macos",
-      "source": "./plugins/storage-diagnostics"
+      "source": "./plugins/sys-macos-storage-diagnostics"
     },
     {
       "name": "sys-macos-sublime-home-end-keys",
@@ -716,7 +716,7 @@
         "productivity"
       ],
       "category": "system-management-macos",
-      "source": "./plugins/sublime-home-end-keys-macos"
+      "source": "./plugins/sys-macos-sublime-home-end-keys"
     },
     {
       "name": "sys-macos-sysinfo",
@@ -733,7 +733,7 @@
         "fastmcp"
       ],
       "category": "system-management-macos",
-      "source": "./plugins/mcp-sysinfo"
+      "source": "./plugins/sys-macos-sysinfo"
     },
     {
       "name": "sys-macos-system-summary",
@@ -750,7 +750,7 @@
         "management"
       ],
       "category": "system-management-macos",
-      "source": "./plugins/system-summary"
+      "source": "./plugins/sys-macos-system-summary"
     },
     {
       "name": "sys-macos-windows-cross-compile",
@@ -767,7 +767,7 @@
         "developer-tools"
       ],
       "category": "system-management-macos",
-      "source": "./plugins/macos-windows-cross-compile"
+      "source": "./plugins/sys-macos-windows-cross-compile"
     },
     {
       "name": "sys-macos-wine-setup",
@@ -784,11 +784,11 @@
         "compatibility"
       ],
       "category": "system-management-macos",
-      "source": "./plugins/macos-wine-setup"
+      "source": "./plugins/sys-macos-wine-setup"
     },
     {
       "name": "sys-win-disable-windows-ai",
-      "source": "./plugins/disable-windows-ai",
+      "source": "./plugins/sys-win-disable-windows-ai",
       "description": "Disable Windows 11 AI features including Copilot, Recall, Edge AI, and app-level AI integrations.",
       "version": "1.0.0",
       "author": {
@@ -805,7 +805,7 @@
     },
     {
       "name": "sys-win-docker-cleanup",
-      "source": "./plugins/docker-cleanup",
+      "source": "./plugins/sys-win-docker-cleanup",
       "description": "Cross-platform Docker cleanup workflow with safe prune steps and Windows WSL2 VHDX compaction guidance.",
       "version": "1.0.0",
       "author": {
@@ -822,7 +822,7 @@
     },
     {
       "name": "sys-win-elevation",
-      "source": "./plugins/windows-elevation",
+      "source": "./plugins/sys-win-elevation",
       "description": "Run elevated Windows commands while preserving visible stdout/stderr using inline sudo or gsudo.",
       "version": "1.0.0",
       "author": {
@@ -839,7 +839,7 @@
     },
     {
       "name": "sys-win-system-elevation",
-      "source": "./plugins/system-elevation",
+      "source": "./plugins/sys-win-system-elevation",
       "description": "Run Windows commands as NT AUTHORITY\\SYSTEM using Task Scheduler with file-based output capture.",
       "version": "1.0.0",
       "author": {
@@ -856,7 +856,7 @@
     },
     {
       "name": "webhook-discord-notifier",
-      "source": "./plugins/discord-notifier",
+      "source": "./plugins/webhook-discord-notifier",
       "description": "Send Discord channel alerts via webhook with profile-based secret resolution and validation.",
       "version": "1.0.0",
       "author": {
