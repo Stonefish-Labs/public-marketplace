@@ -870,6 +870,23 @@
         "automation"
       ],
       "category": "webhooks"
+    },
+    {
+      "name": "proserv-reverse-brief",
+      "source": "./plugins/proserv-reverse-brief",
+      "description": "Generate reverse briefs from pasted text, local files, or URLs with clear purpose, risks, deadlines, and action steps.",
+      "version": "1.0.0",
+      "author": {
+        "name": "batteryshark"
+      },
+      "keywords": [
+        "briefing",
+        "reverse-brief",
+        "analysis",
+        "documentation",
+        "professional-services"
+      ],
+      "category": "proserv"
     }
   ]
 }

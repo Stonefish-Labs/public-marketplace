@@ -1,0 +1,18 @@
+{
+  "name": "proserv-reverse-brief",
+  "version": "1.0.0",
+  "description": "Generate reverse briefs from pasted text, local files, or URLs with clear purpose, risks, deadlines, and action steps.",
+  "author": {
+    "name": "batteryshark"
+  },
+  "keywords": [
+    "briefing",
+    "reverse-brief",
+    "analysis",
+    "documentation",
+    "professional-services"
+  ],
+  "commands": [
+    "commands/reverse-brief.md"
+  ]
+}
